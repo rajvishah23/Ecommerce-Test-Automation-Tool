@@ -1,0 +1,1199 @@
+{
+  "metadata": {
+    "timestamp": "2025-11-26T04:28:46.078Z",
+    "tool": "Ecommerce Test Automation",
+    "version": "1.0.0"
+  },
+  "summary": {
+    "overallStatus": "FAILED",
+    "totalTests": 1,
+    "passed": 0,
+    "failed": 1
+  },
+  "results": [
+    {
+      "url": "https://www.gymshark.com/products/gymshark-vital-seamless-leggings-dark-green-marl-logo",
+      "platform": "shopify",
+      "timestamp": "2025-11-26T04:28:17.078Z",
+      "overall": {
+        "passed": false
+      },
+      "productPage": {
+        "passed": true,
+        "errors": [],
+        "warnings": [],
+        "elements": {
+          "title": {
+            "found": true,
+            "selector": "h1[class*=\"product\"][class*=\"title\"]",
+            "text": "Vital Leggings"
+          },
+          "price": {
+            "found": true,
+            "selector": "[class*=\"price\"]",
+            "text": "$27$54"
+          },
+          "description": {
+            "found": true,
+            "selector": "[class*=\"description\"]"
+          },
+          "addToCart": {
+            "found": true,
+            "selector": "[data-testid=\"pdp-addToBag-submit\"]",
+            "visible": true,
+            "enabled": true
+          },
+          "images": {
+            "found": true,
+            "count": 2,
+            "selector": "img[src*=\"product\"]"
+          },
+          "meta": {
+            "title": "Gymshark Vital Leggings - Dark Green Marl | Gymshark",
+            "description": "Shop the Vital Leggings in dark green marl. With next day delivery and free returns, shop online today at Gymshark."
+          }
+        }
+      },
+      "images": {
+        "passed": false,
+        "totalImages": 101,
+        "loadedImages": 95,
+        "failedImages": [
+          {
+            "src": "https://www.gymshark.com/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2Fwl6q2in9o7k3%2F2OWVk6le0Absok45MuCQND%2Fb37299086c88eb41f80869911bcb0420%2F24860751.jpeg&w=3840&q=90",
+            "alt": "UP TO 50% OFF",
+            "width": 0,
+            "height": 0,
+            "loaded": true,
+            "status": 200,
+            "error": "Image has zero dimensions"
+          },
+          {
+            "src": "https://www.gymshark.com/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2Fwl6q2in9o7k3%2F4oKcSAYbbNQxLectUds1Ao%2F3621dfea1dd5726602ff4e22699a39f1%2F24860699.jpeg&w=3840&q=90",
+            "alt": "UP TO 50% OFF",
+            "width": 0,
+            "height": 0,
+            "loaded": true,
+            "status": 200,
+            "error": "Image has zero dimensions"
+          },
+          {
+            "src": "https://www.gymshark.com/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2Fwl6q2in9o7k3%2F20DDgUEDf500JvCE3C824J%2F1afa33e03ae1ad6eb9851a32db567649%2F24860853__1_.jpeg&w=3840&q=90",
+            "alt": "Leggings from $22",
+            "width": 0,
+            "height": 0,
+            "loaded": true,
+            "status": 200,
+            "error": "Image has zero dimensions"
+          },
+          {
+            "src": "https://www.gymshark.com/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2Fwl6q2in9o7k3%2F0V9nRHi2S1K9id4J1PCcY%2F07186f44466eb6fe908d39c08736a278%2F24860719.jpeg&w=3840&q=90",
+            "alt": "TOPS FROM $15",
+            "width": 0,
+            "height": 0,
+            "loaded": true,
+            "status": 200,
+            "error": "Image has zero dimensions"
+          },
+          {
+            "src": "https://cdn.shopify.com/s/files/1/0156/6146/files/images-VitalSeamless2_0LeggingsObsidianGreenMarlB1A2B_EBDK_0443_0407_3840x.jpg?v=1753868575",
+            "alt": "Vital Leggings - View 6",
+            "width": 1152,
+            "height": 1440,
+            "loaded": false,
+            "status": 200,
+            "error": "HTTP 200"
+          },
+          {
+            "src": "https://bat.bing.com/action/0?ti=134606084&tm=gtm002&Ver=2&mid=204acf28-d2dc-4dae-b89a-0181e4ba89ac&bo=4&sid=571797c0ca8011f0acb6d5fe298938db&vid=57178ab0ca8011f0a8986f12145b590c&vids=0&msclkid=N&pi=918639831&lg=en-GB&sw=1440&sh=900&sc=30&nwd=1&tl=Gymshark%20Vital%20Leggings%20-%20Dark%20Green%20Marl%20%7C%20Gymshark&p=https%3A%2F%2Fwww.gymshark.com%2Fproducts%2Fgymshark-vital-seamless-leggings-dark-green-marl-logo&r=&lt=2712&evt=pageLoad&sv=2&asc=G&cdb=AQET&rn=12601",
+            "alt": "",
+            "width": 0,
+            "height": 0,
+            "loaded": false,
+            "status": 200,
+            "error": "Image has zero dimensions"
+          }
+        ],
+        "missingAltText": [
+          {
+            "src": "https://www.gymshark.com/_next/static/media/au.af6092ad.svg",
+            "width": 103,
+            "height": 103
+          },
+          {
+            "src": "https://www.gymshark.com/_next/static/media/ca.6f9bb158.svg",
+            "width": 103,
+            "height": 103
+          },
+          {
+            "src": "https://www.gymshark.com/_next/static/media/dk.cc6607c3.svg",
+            "width": 103,
+            "height": 103
+          },
+          {
+            "src": "https://www.gymshark.com/_next/static/media/eu.7dbe46d4.svg",
+            "width": 103,
+            "height": 103
+          },
+          {
+            "src": "https://www.gymshark.com/_next/static/media/fi.dab03e1f.svg",
+            "width": 103,
+            "height": 103
+          },
+          {
+            "src": "https://www.gymshark.com/_next/static/media/fr.a558faec.svg",
+            "width": 103,
+            "height": 103
+          },
+          {
+            "src": "https://www.gymshark.com/_next/static/media/nl.921fe938.svg",
+            "width": 103,
+            "height": 103
+          },
+          {
+            "src": "https://www.gymshark.com/_next/static/media/no.3bc19e6e.svg",
+            "width": 103,
+            "height": 103
+          },
+          {
+            "src": "https://www.gymshark.com/_next/static/media/ch.3f68d1ce.svg",
+            "width": 103,
+            "height": 103
+          },
+          {
+            "src": "https://www.gymshark.com/_next/static/media/se.1a982cee.svg",
+            "width": 103,
+            "height": 103
+          },
+          {
+            "src": "https://cdn.shopify.com/s/files/1/0156/6146/files/images-VitalSeamless2_0LeggingsObsidianGreenMarlB1A2B_EBDK_0431_0403.jpg?v=1753868575",
+            "width": 1692,
+            "height": 2018
+          },
+          {
+            "src": "https://cdn.shopify.com/s/files/1/0156/6146/files/images-VitalSeamless2_0NewSportsBraObsidianGreenMarlB1C5G_EBDK_0144.jpg?v=1756464509",
+            "width": 1692,
+            "height": 2018
+          },
+          {
+            "src": "https://www.gymshark.com/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2Fwl6q2in9o7k3%2F2tWoz7x4q4K8FxCLoJaau3%2Fe73b249b7c64c2b4e08d16773d0c6cc4%2FVital_Seamless_Outdoor_Legging_Black_Marl_B5C5A-BBF3-0045_V1c.jpg&w=3840&q=85",
+            "width": 1692,
+            "height": 2018
+          },
+          {
+            "src": "https://www.gymshark.com/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2Fwl6q2in9o7k3%2F2tWoz7x4q4K8FxCLoJaau3%2Fe73b249b7c64c2b4e08d16773d0c6cc4%2FVital_Seamless_Outdoor_Legging_Black_Marl_B5C5A-BBF3-0045_V1c.jpg&w=3840&q=85",
+            "width": 1692,
+            "height": 2018
+          },
+          {
+            "src": "https://www.gymshark.com/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2Fwl6q2in9o7k3%2F2Kwh9Kk63D9FnLXktQNnZK%2Fe6bb7f8605df0925873c87e88c645958%2FVital_Seamless_Tank_With_Shelf_Black_Marl_B4C6D-BBF3-0061_V1c.jpg&w=3840&q=85",
+            "width": 1692,
+            "height": 2018
+          },
+          {
+            "src": "https://www.gymshark.com/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2Fwl6q2in9o7k3%2F2Kwh9Kk63D9FnLXktQNnZK%2Fe6bb7f8605df0925873c87e88c645958%2FVital_Seamless_Tank_With_Shelf_Black_Marl_B4C6D-BBF3-0061_V1c.jpg&w=3840&q=85",
+            "width": 1692,
+            "height": 2018
+          },
+          {
+            "src": "https://www.gymshark.com/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2Fwl6q2in9o7k3%2F3vmiivRIOQLths9Ff0CbR8%2F2b7e7442404727cbc7018160cbc70b1c%2FVital_Seamless_Outdoor_Legging_Black_Marl_B5C5A-BBF3-0039_V1c.jpg&w=3840&q=85",
+            "width": 1692,
+            "height": 2018
+          },
+          {
+            "src": "https://www.gymshark.com/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2Fwl6q2in9o7k3%2F3vmiivRIOQLths9Ff0CbR8%2F2b7e7442404727cbc7018160cbc70b1c%2FVital_Seamless_Outdoor_Legging_Black_Marl_B5C5A-BBF3-0039_V1c.jpg&w=3840&q=85",
+            "width": 1692,
+            "height": 2018
+          },
+          {
+            "src": "https://www.gymshark.com/_next/static/media/au.af6092ad.svg",
+            "width": 103,
+            "height": 103
+          },
+          {
+            "src": "https://www.gymshark.com/_next/static/media/ca.6f9bb158.svg",
+            "width": 103,
+            "height": 103
+          },
+          {
+            "src": "https://www.gymshark.com/_next/static/media/dk.cc6607c3.svg",
+            "width": 103,
+            "height": 103
+          },
+          {
+            "src": "https://www.gymshark.com/_next/static/media/eu.7dbe46d4.svg",
+            "width": 103,
+            "height": 103
+          },
+          {
+            "src": "https://www.gymshark.com/_next/static/media/fi.dab03e1f.svg",
+            "width": 103,
+            "height": 103
+          },
+          {
+            "src": "https://www.gymshark.com/_next/static/media/fr.a558faec.svg",
+            "width": 103,
+            "height": 103
+          },
+          {
+            "src": "https://www.gymshark.com/_next/static/media/nl.921fe938.svg",
+            "width": 103,
+            "height": 103
+          },
+          {
+            "src": "https://www.gymshark.com/_next/static/media/no.3bc19e6e.svg",
+            "width": 103,
+            "height": 103
+          },
+          {
+            "src": "https://www.gymshark.com/_next/static/media/ch.3f68d1ce.svg",
+            "width": 103,
+            "height": 103
+          },
+          {
+            "src": "https://www.gymshark.com/_next/static/media/se.1a982cee.svg",
+            "width": 103,
+            "height": 103
+          },
+          {
+            "src": "https://cdn.shopify.com/s/files/1/0156/6146/files/images-VitalSeamless2_0NewSportsBraObsidianGreenMarlB1C5G_EBDK_0144_3840x.jpg?v=1756464509",
+            "width": 1692,
+            "height": 2018
+          },
+          {
+            "src": "https://cdn.shopify.com/s/files/1/0156/6146/files/images-VitalSeamless2_0LeggingsObsidianGreenMarlB1A2B_EBDK_0431_0403_3840x.jpg?v=1753868575",
+            "width": 1692,
+            "height": 2018
+          },
+          {
+            "src": "https://cdn.shopify.com/s/files/1/0156/6146/files/images-VitalSeamless2_0NewSportsBraObsidianGreenMarlB1C5G_EBDK_0144_3840x.jpg?v=1756464509",
+            "width": 1692,
+            "height": 2018
+          }
+        ],
+        "images": [
+          {
+            "src": "https://www.gymshark.com/_next/static/media/row.dcf5b72d.svg",
+            "alt": "",
+            "width": 17,
+            "height": 17,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "https://www.gymshark.com/_next/static/media/us.bc5e2f3b.svg",
+            "alt": "",
+            "width": 13,
+            "height": 14,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "https://www.gymshark.com/_next/image?url=https%3A%2F%2Fcdn.gymshark.com%2Fimages%2Fbranding%2Fgs-logo-black-text-only.png&w=256&q=75",
+            "alt": "Gymshark",
+            "width": 96,
+            "height": 21,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "https://www.gymshark.com/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2Fwl6q2in9o7k3%2F2OWVk6le0Absok45MuCQND%2Fb37299086c88eb41f80869911bcb0420%2F24860751.jpeg&w=3840&q=90",
+            "alt": "UP TO 50% OFF",
+            "width": 0,
+            "height": 0,
+            "loaded": true,
+            "status": 200,
+            "error": "Image has zero dimensions"
+          },
+          {
+            "src": "https://www.gymshark.com/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2Fwl6q2in9o7k3%2F2OWVk6le0Absok45MuCQND%2Fb37299086c88eb41f80869911bcb0420%2F24860751.jpeg&w=3840&q=90",
+            "alt": "UP TO 50% OFF",
+            "width": 0,
+            "height": 0,
+            "loaded": true,
+            "status": 200,
+            "error": "Image has zero dimensions"
+          },
+          {
+            "src": "https://www.gymshark.com/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2Fwl6q2in9o7k3%2F4oKcSAYbbNQxLectUds1Ao%2F3621dfea1dd5726602ff4e22699a39f1%2F24860699.jpeg&w=3840&q=90",
+            "alt": "UP TO 50% OFF",
+            "width": 0,
+            "height": 0,
+            "loaded": true,
+            "status": 200,
+            "error": "Image has zero dimensions"
+          },
+          {
+            "src": "https://www.gymshark.com/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2Fwl6q2in9o7k3%2F4oKcSAYbbNQxLectUds1Ao%2F3621dfea1dd5726602ff4e22699a39f1%2F24860699.jpeg&w=3840&q=90",
+            "alt": "UP TO 50% OFF",
+            "width": 0,
+            "height": 0,
+            "loaded": true,
+            "status": 200,
+            "error": "Image has zero dimensions"
+          },
+          {
+            "src": "https://www.gymshark.com/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2Fwl6q2in9o7k3%2F2OWVk6le0Absok45MuCQND%2Fb37299086c88eb41f80869911bcb0420%2F24860751.jpeg&w=3840&q=90",
+            "alt": "UP TO 50% OFF",
+            "width": 0,
+            "height": 0,
+            "loaded": true,
+            "status": 200,
+            "error": "Image has zero dimensions"
+          },
+          {
+            "src": "https://www.gymshark.com/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2Fwl6q2in9o7k3%2F2OWVk6le0Absok45MuCQND%2Fb37299086c88eb41f80869911bcb0420%2F24860751.jpeg&w=3840&q=90",
+            "alt": "UP TO 50% OFF",
+            "width": 0,
+            "height": 0,
+            "loaded": true,
+            "status": 200,
+            "error": "Image has zero dimensions"
+          },
+          {
+            "src": "https://www.gymshark.com/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2Fwl6q2in9o7k3%2F20DDgUEDf500JvCE3C824J%2F1afa33e03ae1ad6eb9851a32db567649%2F24860853__1_.jpeg&w=3840&q=90",
+            "alt": "Leggings from $22",
+            "width": 0,
+            "height": 0,
+            "loaded": true,
+            "status": 200,
+            "error": "Image has zero dimensions"
+          },
+          {
+            "src": "https://www.gymshark.com/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2Fwl6q2in9o7k3%2F20DDgUEDf500JvCE3C824J%2F1afa33e03ae1ad6eb9851a32db567649%2F24860853__1_.jpeg&w=3840&q=90",
+            "alt": "Leggings from $22",
+            "width": 0,
+            "height": 0,
+            "loaded": true,
+            "status": 200,
+            "error": "Image has zero dimensions"
+          },
+          {
+            "src": "https://www.gymshark.com/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2Fwl6q2in9o7k3%2F4oKcSAYbbNQxLectUds1Ao%2F3621dfea1dd5726602ff4e22699a39f1%2F24860699.jpeg&w=3840&q=90",
+            "alt": "UP TO 50% OFF",
+            "width": 0,
+            "height": 0,
+            "loaded": true,
+            "status": 200,
+            "error": "Image has zero dimensions"
+          },
+          {
+            "src": "https://www.gymshark.com/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2Fwl6q2in9o7k3%2F4oKcSAYbbNQxLectUds1Ao%2F3621dfea1dd5726602ff4e22699a39f1%2F24860699.jpeg&w=3840&q=90",
+            "alt": "UP TO 50% OFF",
+            "width": 0,
+            "height": 0,
+            "loaded": true,
+            "status": 200,
+            "error": "Image has zero dimensions"
+          },
+          {
+            "src": "https://www.gymshark.com/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2Fwl6q2in9o7k3%2F0V9nRHi2S1K9id4J1PCcY%2F07186f44466eb6fe908d39c08736a278%2F24860719.jpeg&w=3840&q=90",
+            "alt": "TOPS FROM $15",
+            "width": 0,
+            "height": 0,
+            "loaded": true,
+            "status": 200,
+            "error": "Image has zero dimensions"
+          },
+          {
+            "src": "https://www.gymshark.com/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2Fwl6q2in9o7k3%2F0V9nRHi2S1K9id4J1PCcY%2F07186f44466eb6fe908d39c08736a278%2F24860719.jpeg&w=3840&q=90",
+            "alt": "TOPS FROM $15",
+            "width": 0,
+            "height": 0,
+            "loaded": true,
+            "status": 200,
+            "error": "Image has zero dimensions"
+          },
+          {
+            "src": "https://www.gymshark.com/_next/static/media/us.bc5e2f3b.svg",
+            "alt": "",
+            "width": 13,
+            "height": 14,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "https://www.gymshark.com/_next/static/media/au.af6092ad.svg",
+            "alt": "",
+            "width": 103,
+            "height": 103,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "https://www.gymshark.com/_next/static/media/bh.e78579ab.svg",
+            "alt": "",
+            "width": 16,
+            "height": 16,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "https://www.gymshark.com/_next/static/media/ca.6f9bb158.svg",
+            "alt": "",
+            "width": 103,
+            "height": 103,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "https://www.gymshark.com/_next/static/media/dk.cc6607c3.svg",
+            "alt": "",
+            "width": 103,
+            "height": 103,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "https://www.gymshark.com/_next/static/media/de.06a14dfa.svg",
+            "alt": "",
+            "width": 14,
+            "height": 14,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "https://www.gymshark.com/_next/static/media/eu.7dbe46d4.svg",
+            "alt": "",
+            "width": 103,
+            "height": 103,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "https://www.gymshark.com/_next/static/media/fi.dab03e1f.svg",
+            "alt": "",
+            "width": 103,
+            "height": 103,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "https://www.gymshark.com/_next/static/media/fr.a558faec.svg",
+            "alt": "",
+            "width": 103,
+            "height": 103,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "https://www.gymshark.com/_next/static/media/kw.9cbcc1f0.svg",
+            "alt": "",
+            "width": 16,
+            "height": 17,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "https://www.gymshark.com/_next/static/media/nl.921fe938.svg",
+            "alt": "",
+            "width": 103,
+            "height": 103,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "https://www.gymshark.com/_next/static/media/no.3bc19e6e.svg",
+            "alt": "",
+            "width": 103,
+            "height": 103,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "https://www.gymshark.com/_next/static/media/om.73d488c3.svg",
+            "alt": "",
+            "width": 16,
+            "height": 17,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "https://www.gymshark.com/_next/static/media/qa.525db127.svg",
+            "alt": "",
+            "width": 16,
+            "height": 17,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "https://www.gymshark.com/_next/static/media/row.dcf5b72d.svg",
+            "alt": "",
+            "width": 17,
+            "height": 17,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "https://www.gymshark.com/_next/static/media/sa.1b8d0fb0.svg",
+            "alt": "",
+            "width": 24,
+            "height": 25,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "https://www.gymshark.com/_next/static/media/ch.3f68d1ce.svg",
+            "alt": "",
+            "width": 103,
+            "height": 103,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "https://www.gymshark.com/_next/static/media/se.1a982cee.svg",
+            "alt": "",
+            "width": 103,
+            "height": 103,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "https://www.gymshark.com/_next/static/media/ae.e6ab1bab.svg",
+            "alt": "",
+            "width": 16,
+            "height": 17,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "https://www.gymshark.com/_next/static/media/gb.2a5cd462.svg",
+            "alt": "",
+            "width": 14,
+            "height": 14,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "https://www.gymshark.com/_next/static/media/us.bc5e2f3b.svg",
+            "alt": "",
+            "width": 13,
+            "height": 14,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "https://cdn.shopify.com/s/files/1/0156/6146/files/images-VitalSeamless2_0LeggingsObsidianGreenMarlB1A2B_EBDK_0431_0403_3840x.jpg?v=1753868575",
+            "alt": "Vital Leggings - View 1",
+            "width": 1692,
+            "height": 2018,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "https://cdn.shopify.com/s/files/1/0156/6146/files/images-ANNOTATED_PDP_23642338_3840x.jpg?v=1753868575",
+            "alt": "Vital Leggings - View 2",
+            "width": 1692,
+            "height": 2018,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "https://cdn.shopify.com/s/files/1/0156/6146/files/images-VitalSeamless2_0LeggingsObsidianGreenMarlB1A2B_EBDK_0435_0404_3840x.jpg?v=1753868575",
+            "alt": "Vital Leggings - View 3",
+            "width": 1692,
+            "height": 2018,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "https://cdn.shopify.com/s/files/1/0156/6146/files/images-VitalSeamless2_0LeggingsObsidianGreenMarlB1A2B_EBDK_0438_0405_3840x.jpg?v=1753868575",
+            "alt": "Vital Leggings - View 4",
+            "width": 1692,
+            "height": 2018,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "https://cdn.shopify.com/s/files/1/0156/6146/files/images-VitalSeamless2_0LeggingsObsidianGreenMarlB1A2B_EBDK_0452_0408_3840x.jpg?v=1753868575",
+            "alt": "Vital Leggings - View 5",
+            "width": 1692,
+            "height": 2018,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "https://cdn.shopify.com/s/files/1/0156/6146/files/images-VitalSeamless2_0LeggingsObsidianGreenMarlB1A2B_EBDK_0443_0407_3840x.jpg?v=1753868575",
+            "alt": "Vital Leggings - View 6",
+            "width": 1152,
+            "height": 1440,
+            "loaded": false,
+            "status": 200,
+            "error": "HTTP 200"
+          },
+          {
+            "src": "https://cdn.shopify.com/s/files/1/0156/6146/files/images-VitalSeamless2_0LeggingsObsidianGreenMarlB1A2B_EBDK_0431_0403_3840x.jpg?v=1753868575",
+            "alt": "Vital Leggings in Dark Green Marl",
+            "width": 132,
+            "height": 157,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "https://cdn.shopify.com/s/files/1/0156/6146/files/images-VitalSeamless2_0LeggingsBlackMarlB1A2B_BBF3_0766_V1b_3840x.jpg?v=1761682058",
+            "alt": "Vital Leggings in Black Marl",
+            "width": 150,
+            "height": 178,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "https://cdn.shopify.com/s/files/1/0156/6146/products/VitalSeamlessWLeggingsBakedMaroonMarlB1A2B-NBLL87.A1_3840x.jpg?v=1658413925",
+            "alt": "Vital Leggings in Baked Maroon Marl",
+            "width": 150,
+            "height": 178,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "https://cdn.shopify.com/s/files/1/0156/6146/files/images-B1A2B_NBFB_2_3840x.jpg?v=1753802952",
+            "alt": "Vital Leggings in Espresso Marl",
+            "width": 150,
+            "height": 178,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "https://cdn.shopify.com/s/files/1/0156/6146/files/VitalSeamless2.0LeggingsWoodlandGreenMarlB1A2B-EBTF-3707_A-0108-Edit_f328390f-5353-4c77-bbf0-41ec74485120_3840x.jpg?v=1755278206",
+            "alt": "Vital Leggings in Woodland Green Marl",
+            "width": 150,
+            "height": 178,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "https://cdn.shopify.com/s/files/1/0156/6146/files/VitalSeamless2.0LeggingsGSCobaltPurpleMarlB1A2B-PBQG-0709_3840x.jpg?v=1696606380",
+            "alt": "Vital Leggings in Cobalt Purple Marl",
+            "width": 150,
+            "height": 178,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "https://cdn.shopify.com/s/files/1/0156/6146/files/VitalSeamless2.0LeggingsGsHeavyBlueMarlB1A2B-UCW7-0420_a5159fed-2997-49e0-b48a-862acae3277b_3840x.jpg?v=1722504943",
+            "alt": "Vital Leggings in Heavy Blue Marl",
+            "width": 150,
+            "height": 178,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "https://cdn.shopify.com/s/files/1/0156/6146/files/VitalSeamless2.0LeggingsGSCoralRed-MarlB1A2B-RB0Z_0701_bcd2dba6-9c2f-499e-921f-71b0eb276c75_3840x.jpg?v=1738170555",
+            "alt": "Vital Leggings in Coral Red Marl",
+            "width": 150,
+            "height": 178,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "https://cdn.shopify.com/s/files/1/0156/6146/files/VitalSeamless2.0LeggingsGSFunctionalPurple_MarlB1A2B-PB8H_0799_3840x.jpg?v=1743618674",
+            "alt": "Vital Leggings in Functional Purple Marl",
+            "width": 150,
+            "height": 178,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "https://cdn.shopify.com/s/files/1/0156/6146/files/images-VitalSeamless2_0LeggingsGSSourPinkMarlB1A2B_KCSL_1205_3840x.jpg?v=1751277057",
+            "alt": "Vital Leggings in Sour Pink Marl",
+            "width": 150,
+            "height": 178,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "https://cdn.shopify.com/s/files/1/0156/6146/files/images-VitalSeamless2_0LeggingsGSRichMaroonMarlB1A2B_NC65_1204_V1a_3840x.jpg?v=1759762411",
+            "alt": "Vital Leggings in Rich Maroon/Marl",
+            "width": 150,
+            "height": 178,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "https://www.gymshark.com/_next/image?url=https%3A%2F%2Fcdn.gymshark.com%2Fimages%2Fpaypal.png&w=32&q=75",
+            "alt": "Paypal",
+            "width": 15,
+            "height": 19,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "https://images.ctfassets.net/wl6q2in9o7k3/3qigO8KlMUUeeMuIh5Mo4l/b8b2e35136a604e1e823ce27c9d391ab/klarna-logo.svg",
+            "alt": "Klarna",
+            "width": 47,
+            "height": 13,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "https://images.ctfassets.net/wl6q2in9o7k3/9fbAYnGTTQTdd3CX5mCuJ/433c5961ef9a80ad5b32085ac4ab2ad6/Afterpay.svg",
+            "alt": "Afterpay",
+            "width": 79,
+            "height": 15,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "https://cdn.shopify.com/s/files/1/0156/6146/files/images-VitalSeamless2_0LeggingsObsidianGreenMarlB1A2B_EBDK_0431_0403.jpg?v=1753868575",
+            "alt": "",
+            "width": 1692,
+            "height": 2018,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "https://cdn.shopify.com/s/files/1/0156/6146/files/images-VitalSeamless2_0NewSportsBraObsidianGreenMarlB1C5G_EBDK_0144.jpg?v=1756464509",
+            "alt": "",
+            "width": 1692,
+            "height": 2018,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "https://www.gymshark.com/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2Fwl6q2in9o7k3%2F2tWoz7x4q4K8FxCLoJaau3%2Fe73b249b7c64c2b4e08d16773d0c6cc4%2FVital_Seamless_Outdoor_Legging_Black_Marl_B5C5A-BBF3-0045_V1c.jpg&w=3840&q=85",
+            "alt": "",
+            "width": 1692,
+            "height": 2018,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "https://www.gymshark.com/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2Fwl6q2in9o7k3%2F2tWoz7x4q4K8FxCLoJaau3%2Fe73b249b7c64c2b4e08d16773d0c6cc4%2FVital_Seamless_Outdoor_Legging_Black_Marl_B5C5A-BBF3-0045_V1c.jpg&w=3840&q=85",
+            "alt": "",
+            "width": 1692,
+            "height": 2018,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "https://www.gymshark.com/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2Fwl6q2in9o7k3%2F2Kwh9Kk63D9FnLXktQNnZK%2Fe6bb7f8605df0925873c87e88c645958%2FVital_Seamless_Tank_With_Shelf_Black_Marl_B4C6D-BBF3-0061_V1c.jpg&w=3840&q=85",
+            "alt": "",
+            "width": 1692,
+            "height": 2018,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "https://www.gymshark.com/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2Fwl6q2in9o7k3%2F2Kwh9Kk63D9FnLXktQNnZK%2Fe6bb7f8605df0925873c87e88c645958%2FVital_Seamless_Tank_With_Shelf_Black_Marl_B4C6D-BBF3-0061_V1c.jpg&w=3840&q=85",
+            "alt": "",
+            "width": 1692,
+            "height": 2018,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "https://www.gymshark.com/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2Fwl6q2in9o7k3%2F3vmiivRIOQLths9Ff0CbR8%2F2b7e7442404727cbc7018160cbc70b1c%2FVital_Seamless_Outdoor_Legging_Black_Marl_B5C5A-BBF3-0039_V1c.jpg&w=3840&q=85",
+            "alt": "",
+            "width": 1692,
+            "height": 2018,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "https://www.gymshark.com/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2Fwl6q2in9o7k3%2F3vmiivRIOQLths9Ff0CbR8%2F2b7e7442404727cbc7018160cbc70b1c%2FVital_Seamless_Outdoor_Legging_Black_Marl_B5C5A-BBF3-0039_V1c.jpg&w=3840&q=85",
+            "alt": "",
+            "width": 1692,
+            "height": 2018,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "https://cdn.shopify.com/s/files/1/0156/6146/files/images-VitalSeamless2_0LeggingsObsidianGreenMarlB1A2B_EBDK_0431_0403_3840x.jpg?v=1753868575",
+            "alt": "Gymshark Vital Leggings - Dark Green Marl",
+            "width": 423,
+            "height": 504,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "https://cdn.shopify.com/s/files/1/0156/6146/files/images-VitalSeamless2_0NewSportsBraObsidianGreenMarlB1C5G_EBDK_0144_3840x.jpg?v=1756464509",
+            "alt": "Gymshark Vital Sports Bra - Obsidian Green Marl",
+            "width": 423,
+            "height": 504,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+            "alt": "Blog",
+            "width": 1,
+            "height": 1,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+            "alt": "15% Student Discount",
+            "width": 1,
+            "height": 1,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+            "alt": "Email Sign Up",
+            "width": 1,
+            "height": 1,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+            "alt": "Visa",
+            "width": 1,
+            "height": 1,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+            "alt": "Mastercard",
+            "width": 1,
+            "height": 1,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+            "alt": "Paypal",
+            "width": 1,
+            "height": 1,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+            "alt": "Apple Pay",
+            "width": 1,
+            "height": 1,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+            "alt": "Klarna",
+            "width": 1,
+            "height": 1,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+            "alt": "American Express",
+            "width": 1,
+            "height": 1,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+            "alt": "Afterpay",
+            "width": 1,
+            "height": 1,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "https://www.gymshark.com/_next/static/media/us.bc5e2f3b.svg",
+            "alt": "",
+            "width": 13,
+            "height": 14,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "https://www.gymshark.com/_next/static/media/au.af6092ad.svg",
+            "alt": "",
+            "width": 103,
+            "height": 103,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "https://www.gymshark.com/_next/static/media/bh.e78579ab.svg",
+            "alt": "",
+            "width": 16,
+            "height": 16,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "https://www.gymshark.com/_next/static/media/ca.6f9bb158.svg",
+            "alt": "",
+            "width": 103,
+            "height": 103,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "https://www.gymshark.com/_next/static/media/dk.cc6607c3.svg",
+            "alt": "",
+            "width": 103,
+            "height": 103,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "https://www.gymshark.com/_next/static/media/de.06a14dfa.svg",
+            "alt": "",
+            "width": 14,
+            "height": 14,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "https://www.gymshark.com/_next/static/media/eu.7dbe46d4.svg",
+            "alt": "",
+            "width": 103,
+            "height": 103,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "https://www.gymshark.com/_next/static/media/fi.dab03e1f.svg",
+            "alt": "",
+            "width": 103,
+            "height": 103,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "https://www.gymshark.com/_next/static/media/fr.a558faec.svg",
+            "alt": "",
+            "width": 103,
+            "height": 103,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "https://www.gymshark.com/_next/static/media/kw.9cbcc1f0.svg",
+            "alt": "",
+            "width": 16,
+            "height": 17,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "https://www.gymshark.com/_next/static/media/nl.921fe938.svg",
+            "alt": "",
+            "width": 103,
+            "height": 103,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "https://www.gymshark.com/_next/static/media/no.3bc19e6e.svg",
+            "alt": "",
+            "width": 103,
+            "height": 103,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "https://www.gymshark.com/_next/static/media/om.73d488c3.svg",
+            "alt": "",
+            "width": 16,
+            "height": 17,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "https://www.gymshark.com/_next/static/media/qa.525db127.svg",
+            "alt": "",
+            "width": 16,
+            "height": 17,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "https://www.gymshark.com/_next/static/media/row.dcf5b72d.svg",
+            "alt": "",
+            "width": 17,
+            "height": 17,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "https://www.gymshark.com/_next/static/media/sa.1b8d0fb0.svg",
+            "alt": "",
+            "width": 24,
+            "height": 25,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "https://www.gymshark.com/_next/static/media/ch.3f68d1ce.svg",
+            "alt": "",
+            "width": 103,
+            "height": 103,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "https://www.gymshark.com/_next/static/media/se.1a982cee.svg",
+            "alt": "",
+            "width": 103,
+            "height": 103,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "https://www.gymshark.com/_next/static/media/ae.e6ab1bab.svg",
+            "alt": "",
+            "width": 16,
+            "height": 17,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "https://www.gymshark.com/_next/static/media/gb.2a5cd462.svg",
+            "alt": "",
+            "width": 14,
+            "height": 14,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "https://www.gymshark.com/_next/static/media/us.bc5e2f3b.svg",
+            "alt": "",
+            "width": 13,
+            "height": 14,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "https://cdn.shopify.com/s/files/1/0156/6146/files/images-VitalSeamless2_0NewSportsBraObsidianGreenMarlB1C5G_EBDK_0144_3840x.jpg?v=1756464509",
+            "alt": "",
+            "width": 1692,
+            "height": 2018,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "https://cdn.shopify.com/s/files/1/0156/6146/files/images-VitalSeamless2_0LeggingsObsidianGreenMarlB1A2B_EBDK_0431_0403_3840x.jpg?v=1753868575",
+            "alt": "",
+            "width": 1692,
+            "height": 2018,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "https://cdn.shopify.com/s/files/1/0156/6146/files/images-VitalSeamless2_0NewSportsBraObsidianGreenMarlB1C5G_EBDK_0144_3840x.jpg?v=1756464509",
+            "alt": "",
+            "width": 1692,
+            "height": 2018,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "https://bat.bing.com/action/0?ti=134606084&tm=gtm002&Ver=2&mid=204acf28-d2dc-4dae-b89a-0181e4ba89ac&bo=4&sid=571797c0ca8011f0acb6d5fe298938db&vid=57178ab0ca8011f0a8986f12145b590c&vids=0&msclkid=N&pi=918639831&lg=en-GB&sw=1440&sh=900&sc=30&nwd=1&tl=Gymshark%20Vital%20Leggings%20-%20Dark%20Green%20Marl%20%7C%20Gymshark&p=https%3A%2F%2Fwww.gymshark.com%2Fproducts%2Fgymshark-vital-seamless-leggings-dark-green-marl-logo&r=&lt=2712&evt=pageLoad&sv=2&asc=G&cdb=AQET&rn=12601",
+            "alt": "",
+            "width": 0,
+            "height": 0,
+            "loaded": false,
+            "status": 200,
+            "error": "Image has zero dimensions"
+          }
+        ]
+      },
+      "errors": {
+        "passed": true,
+        "consoleErrors": [],
+        "networkFailures": [],
+        "resourceFailures": [],
+        "corsErrors": [],
+        "performanceWarnings": [],
+        "securityErrors": [],
+        "totalErrors": 0,
+        "totalWarnings": 0
+      }
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+Ecommerce Test Automation Report
+Generated: 11/26/2025, 9:58:46 AM
+
+============================================================
+
+Overall Status: FAILED
+Total Tests: 1
+Passed: 0
+Failed: 1
+
+============================================================
+
+Test 1: https://www.gymshark.com/products/gymshark-vital-seamless-leggings-dark-green-marl-logo
+Status: FAILED
+Platform: shopify
+
+Product Page: PASSED
+  Errors: 0
+  Warnings: 0
+
+Images: FAILED
+  Total: 101
+  Loaded: 95
+  Failed: 6
+
+Errors: PASSED
+  Console Errors: 0
+  Network Failures: 0
+  CORS Errors: 0
+
+------------------------------------------------------------
+

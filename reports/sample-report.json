@@ -1,0 +1,187 @@
+{
+  "metadata": {
+    "timestamp": "2024-01-15T10:30:00.000Z",
+    "tool": "Ecommerce Test Automation",
+    "version": "1.0.0"
+  },
+  "summary": {
+    "overallStatus": "PASSED",
+    "totalTests": 2,
+    "passed": 2,
+    "failed": 0
+  },
+  "results": [
+    {
+      "url": "https://example-store.myshopify.com/products/sample-product",
+      "platform": "shopify",
+      "timestamp": "2024-01-15T10:30:15.123Z",
+      "overall": {
+        "passed": true
+      },
+      "productPage": {
+        "passed": true,
+        "errors": [],
+        "warnings": [
+          {
+            "type": "warning",
+            "element": "product_description",
+            "message": "Product description not found or too short"
+          }
+        ],
+        "elements": {
+          "title": {
+            "found": true,
+            "selector": "h1.product__title",
+            "text": "Premium Cotton T-Shirt"
+          },
+          "price": {
+            "found": true,
+            "selector": ".product__price",
+            "text": "$29.99"
+          },
+          "description": {
+            "found": false
+          },
+          "addToCart": {
+            "found": true,
+            "selector": "button[name='add']",
+            "visible": true,
+            "enabled": true
+          },
+          "images": {
+            "found": true,
+            "count": 5,
+            "selector": ".product__media img"
+          },
+          "variants": {
+            "found": true,
+            "count": 2,
+            "selector": "select.product-variant"
+          },
+          "meta": {
+            "title": "Premium Cotton T-Shirt | Example Store",
+            "description": "High-quality cotton t-shirt available in multiple colors and sizes."
+          }
+        }
+      },
+      "images": {
+        "passed": true,
+        "totalImages": 12,
+        "loadedImages": 12,
+        "failedImages": [],
+        "missingAltText": [
+          {
+            "src": "https://cdn.shopify.com/banner.jpg",
+            "width": 1200,
+            "height": 400
+          }
+        ],
+        "images": [
+          {
+            "src": "https://cdn.shopify.com/product-1.jpg",
+            "alt": "Premium Cotton T-Shirt - Front View",
+            "width": 800,
+            "height": 1000,
+            "loaded": true,
+            "status": 200
+          }
+        ]
+      },
+      "errors": {
+        "passed": true,
+        "consoleErrors": [
+          {
+            "type": "console_error",
+            "message": "Analytics script failed to load",
+            "severity": "warning",
+            "timestamp": "2024-01-15T10:30:18.456Z"
+          }
+        ],
+        "networkFailures": [
+          {
+            "url": "https://analytics.example.com/track",
+            "status": 404,
+            "severity": "warning",
+            "timestamp": "2024-01-15T10:30:19.789Z"
+          }
+        ],
+        "resourceFailures": [],
+        "corsErrors": [],
+        "performanceWarnings": [],
+        "securityErrors": [],
+        "totalErrors": 0,
+        "totalWarnings": 2
+      }
+    },
+    {
+      "url": "https://another-store.myshopify.com/products/jeans",
+      "platform": "shopify",
+      "timestamp": "2024-01-15T10:31:00.000Z",
+      "overall": {
+        "passed": true
+      },
+      "productPage": {
+        "passed": true,
+        "errors": [],
+        "warnings": [],
+        "elements": {
+          "title": {
+            "found": true,
+            "selector": "h1.product__title",
+            "text": "Classic Denim Jeans"
+          },
+          "price": {
+            "found": true,
+            "selector": ".product__price",
+            "text": "$79.99"
+          },
+          "description": {
+            "found": true,
+            "selector": ".product__description",
+            "text": "Premium denim jeans with classic fit..."
+          },
+          "addToCart": {
+            "found": true,
+            "selector": "button[name='add']",
+            "visible": true,
+            "enabled": true
+          },
+          "images": {
+            "found": true,
+            "count": 8,
+            "selector": ".product__media img"
+          },
+          "variants": {
+            "found": true,
+            "count": 3,
+            "selector": "select.product-variant"
+          },
+          "meta": {
+            "title": "Classic Denim Jeans | Another Store",
+            "description": "Premium denim jeans available in multiple sizes."
+          }
+        }
+      },
+      "images": {
+        "passed": true,
+        "totalImages": 15,
+        "loadedImages": 15,
+        "failedImages": [],
+        "missingAltText": [],
+        "images": []
+      },
+      "errors": {
+        "passed": true,
+        "consoleErrors": [],
+        "networkFailures": [],
+        "resourceFailures": [],
+        "corsErrors": [],
+        "performanceWarnings": [],
+        "securityErrors": [],
+        "totalErrors": 0,
+        "totalWarnings": 0
+      }
+    }
+  ]
+}
+

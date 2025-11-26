@@ -1,0 +1,2440 @@
+{
+  "metadata": {
+    "timestamp": "2025-11-26T04:09:46.362Z",
+    "tool": "Ecommerce Test Automation",
+    "version": "1.0.0"
+  },
+  "summary": {
+    "overallStatus": "FAILED",
+    "totalTests": 2,
+    "passed": 0,
+    "failed": 2
+  },
+  "results": [
+    {
+      "url": "https://www.halfpricedrapes.com/products/birch-textured-faux-linen-room-darkening-curtain",
+      "platform": "shopify",
+      "timestamp": "2025-11-26T04:07:00.703Z",
+      "overall": {
+        "passed": false
+      },
+      "productPage": {
+        "passed": true,
+        "errors": [],
+        "warnings": [],
+        "elements": {
+          "title": {
+            "found": true,
+            "selector": "h1[class*=\"product\"][class*=\"title\"]",
+            "text": "Birch Textured Faux Linen Room Darkening Curtain"
+          },
+          "price": {
+            "found": true,
+            "selector": "[class*=\"price\"]",
+            "text": "$39.99\n        \n          Regular price\n          $79.98\n        \n  \n        \n        \n          \n          \n             50% OFF\n          \n          \n        \n  \n        \n        \n      \n      \n        Subscription\n        •\n        Save"
+          },
+          "description": {
+            "found": true,
+            "selector": "*[class*=\"rte accordion-content\"]"
+          },
+          "addToCart": {
+            "found": true,
+            "selector": "button[name*=\"add\"]",
+            "visible": true,
+            "enabled": true
+          },
+          "images": {
+            "found": true,
+            "count": 5,
+            "selector": "img[src*=\"product\"]"
+          },
+          "variants": {
+            "found": true,
+            "count": 4,
+            "selector": "[class*=\"variant-size\"]"
+          },
+          "meta": {
+            "title": "Birch Textured Faux Linen Room Darkening Curtain",
+            "description": "Refresh your home décor effortlessly using the chic Birch Textured Faux Linen Room Darkening Curtain! Perfect for enhancing the loft, these curtains offer both style and function with their room-darkening features, making them an excellent choice for adding privacy and reducing sunlight."
+          }
+        }
+      },
+      "images": {
+        "passed": false,
+        "totalImages": 82,
+        "loadedImages": 79,
+        "failedImages": [
+          {
+            "src": "",
+            "alt": "HalfPriceDrapes.com",
+            "width": 0,
+            "height": 0,
+            "loaded": true,
+            "status": 200,
+            "error": "Image has zero dimensions"
+          },
+          {
+            "src": "https://cdn.shopify.com/s/files/1/0576/6856/7211/files/Length-1_6.jpg?v=1647550062",
+            "alt": "",
+            "width": 0,
+            "height": 0,
+            "loaded": false,
+            "status": 200,
+            "error": "Image has zero dimensions"
+          },
+          {
+            "src": "https://bat.bing.com/action/0?ti=5738608&Ver=2&mid=69848afe-0c98-4a29-88ce-9289aa60cd72&bo=1&sid=5ca73650ca7d11f0931a89436d6e2560&vid=5ca77b00ca7d11f09a691dfb23e950f3&vids=0&msclkid=N&pi=918639831&lg=en-GB&sw=1440&sh=900&sc=30&nwd=1&tl=Birch%20Textured%20Faux%20Linen%20Room%20Darkening%20Curtain&p=https%3A%2F%2Fwww.halfpricedrapes.com%2Fproducts%2Fbirch-textured-faux-linen-room-darkening-curtain%3Fvariant%3D41163166253227&r=&lt=603&evt=pageLoad&sv=2&cdb=AQAQ&rn=360927",
+            "alt": "",
+            "width": 0,
+            "height": 0,
+            "loaded": false,
+            "status": 200,
+            "error": "Image has zero dimensions"
+          }
+        ],
+        "missingAltText": [
+          {
+            "src": "https://cdn.shopify.com/s/files/1/0576/6856/7211/files/HPD_Holiday_Logos_8.png?v=1755275784",
+            "width": 867,
+            "height": 111
+          },
+          {
+            "src": "https://cdn.shopify.com/s/files/1/0576/6856/7211/files/HPD_Holiday_Logos_8.png?v=1755275784",
+            "width": 867,
+            "height": 111
+          },
+          {
+            "src": "https://www.halfpricedrapes.com/cdn/shop/files/BOCH-LN1856-front-view_3000x.jpg?v=1763490945",
+            "width": 1500,
+            "height": 1500
+          },
+          {
+            "src": "https://www.halfpricedrapes.com/cdn/shop/files/Badges_1_be0e3f2a-db3d-4784-ba56-894ac0fb33e9_300x300.png?v=1759335063",
+            "width": 140,
+            "height": 60
+          },
+          {
+            "src": "https://www.halfpricedrapes.com/cdn/shop/files/Badges_1_be0e3f2a-db3d-4784-ba56-894ac0fb33e9_300x300.png?v=1759335063",
+            "width": 140,
+            "height": 60
+          },
+          {
+            "src": "https://www.halfpricedrapes.com/cdn/shop/files/Badges_1_be0e3f2a-db3d-4784-ba56-894ac0fb33e9_300x300.png?v=1759335063",
+            "width": 140,
+            "height": 60
+          },
+          {
+            "src": "https://www.halfpricedrapes.com/cdn/shop/files/Badges_1_be0e3f2a-db3d-4784-ba56-894ac0fb33e9_300x300.png?v=1759335063",
+            "width": 140,
+            "height": 60
+          },
+          {
+            "src": "https://www.halfpricedrapes.com/cdn/shop/files/Badges_1_be0e3f2a-db3d-4784-ba56-894ac0fb33e9_300x300.png?v=1759335063",
+            "width": 140,
+            "height": 60
+          },
+          {
+            "src": "",
+            "width": 64,
+            "height": 64
+          },
+          {
+            "src": "https://www.halfpricedrapes.com/cdn/shop/files/BOCH-LN1856-hook-belt-header_small.jpg?v=1763490956",
+            "width": 100,
+            "height": 100
+          },
+          {
+            "src": "https://www.halfpricedrapes.com/cdn/shop/files/BOCH-LN1856-hook-belt-header_small.jpg?v=1763490956",
+            "width": 100,
+            "height": 100
+          },
+          {
+            "src": "https://www.halfpricedrapes.com/cdn/shop/files/BOCH-LN1856-GR-grommet-header_small.jpg?v=1763490768",
+            "width": 100,
+            "height": 100
+          },
+          {
+            "src": "https://www.halfpricedrapes.com/cdn/shop/files/BOCH-LN1856-FP-french-pleat-header_64a18dea-676e-4752-babb-9c0878412116_small.jpg?v=1763490688",
+            "width": 100,
+            "height": 100
+          },
+          {
+            "src": "https://cdn.shopify.com/s/files/1/0843/7373/3685/files/Shipping_dfb1ad02-cf03-425e-ad96-71a770d2ba29.png?v=1736158380",
+            "width": 1109,
+            "height": 1109
+          },
+          {
+            "src": "https://cdn.shopify.com/s/files/1/0576/6856/7211/files/starburst_with_check_new.png?v=1737531922",
+            "width": 1276,
+            "height": 1280
+          },
+          {
+            "src": "https://www.halfpricedrapes.com/cdn/shop/files/BOCH-LN1856-DW-front-view_540x.jpg?v=1763490807",
+            "width": 499,
+            "height": 499
+          },
+          {
+            "src": "https://www.halfpricedrapes.com/cdn/shop/files/BOCH-LN1856-DW-hook-belt-header.jpg?v=1763490810",
+            "width": 1920,
+            "height": 1920
+          },
+          {
+            "src": "https://www.halfpricedrapes.com/cdn/shop/files/BOCH-LN1856-FP-front-view_64cd783d-154f-43b2-aa70-4608b49f226e_540x.jpg?v=1763490686",
+            "width": 499,
+            "height": 499
+          },
+          {
+            "src": "https://www.halfpricedrapes.com/cdn/shop/files/BOCH-LN1856-FP-french-pleat-header_64a18dea-676e-4752-babb-9c0878412116.jpg?v=1763490688",
+            "width": 1920,
+            "height": 1920
+          },
+          {
+            "src": "https://www.halfpricedrapes.com/cdn/shop/files/Textured_Faux_Linen_Curtains_-_Collection_Box_900x.jpg?v=1754935747",
+            "width": 884,
+            "height": 462
+          }
+        ],
+        "images": [
+          {
+            "src": "",
+            "alt": "HalfPriceDrapes.com",
+            "width": 0,
+            "height": 0,
+            "loaded": true,
+            "status": 200,
+            "error": "Image has zero dimensions"
+          },
+          {
+            "src": "https://cdn.shopify.com/s/files/1/0576/6856/7211/files/HPD_Holiday_Logos_8.png?v=1755275784",
+            "alt": "",
+            "width": 867,
+            "height": 111,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "https://www.halfpricedrapes.com/cdn/shop/files/Thanksgiving_160x.png?v=1764086935",
+            "alt": "HalfPriceDrapes.com",
+            "width": 139,
+            "height": 83,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "https://cdn.shopify.com/s/files/1/0576/6856/7211/files/HPD_Holiday_Logos_8.png?v=1755275784",
+            "alt": "",
+            "width": 867,
+            "height": 111,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "https://cdn.shopify.com/s/files/1/0843/7373/3685/files/home_2.png?v=1723807419",
+            "alt": "home icon",
+            "width": 16,
+            "height": 16,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "",
+            "alt": "Zoom",
+            "width": 0,
+            "height": 0,
+            "loaded": true,
+            "status": 200,
+            "error": "Image has zero dimensions"
+          },
+          {
+            "src": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==",
+            "alt": "Birch Textured Faux Linen Room Darkening Curtain",
+            "width": 330,
+            "height": 330,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "https://www.halfpricedrapes.com/cdn/shop/files/BOCH-LN1856-front-view_3000x.jpg?v=1763490945",
+            "alt": "",
+            "width": 1500,
+            "height": 1500,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "https://www.halfpricedrapes.com/cdn/shop/files/Badges_1_be0e3f2a-db3d-4784-ba56-894ac0fb33e9_300x300.png?v=1759335063",
+            "alt": "",
+            "width": 101,
+            "height": 43,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "",
+            "alt": "Zoom",
+            "width": 0,
+            "height": 0,
+            "loaded": true,
+            "status": 200,
+            "error": "Image has zero dimensions"
+          },
+          {
+            "src": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==",
+            "alt": "Birch Textured Faux Linen Room Darkening Curtain",
+            "width": 661,
+            "height": 661,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "https://www.halfpricedrapes.com/cdn/shop/files/Badges_1_be0e3f2a-db3d-4784-ba56-894ac0fb33e9_300x300.png?v=1759335063",
+            "alt": "",
+            "width": 140,
+            "height": 60,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "",
+            "alt": "Zoom",
+            "width": 0,
+            "height": 0,
+            "loaded": true,
+            "status": 200,
+            "error": "Image has zero dimensions"
+          },
+          {
+            "src": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==",
+            "alt": "Birch Textured Faux Linen Room Darkening Curtain",
+            "width": 661,
+            "height": 661,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "https://www.halfpricedrapes.com/cdn/shop/files/Badges_1_be0e3f2a-db3d-4784-ba56-894ac0fb33e9_300x300.png?v=1759335063",
+            "alt": "",
+            "width": 140,
+            "height": 60,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "",
+            "alt": "Zoom",
+            "width": 0,
+            "height": 0,
+            "loaded": true,
+            "status": 200,
+            "error": "Image has zero dimensions"
+          },
+          {
+            "src": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==",
+            "alt": "Birch Textured Faux Linen Room Darkening Curtain",
+            "width": 661,
+            "height": 661,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "https://www.halfpricedrapes.com/cdn/shop/files/Badges_1_be0e3f2a-db3d-4784-ba56-894ac0fb33e9_300x300.png?v=1759335063",
+            "alt": "",
+            "width": 140,
+            "height": 60,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "",
+            "alt": "Zoom",
+            "width": 0,
+            "height": 0,
+            "loaded": true,
+            "status": 200,
+            "error": "Image has zero dimensions"
+          },
+          {
+            "src": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==",
+            "alt": "Birch Textured Faux Linen Room Darkening Curtain",
+            "width": 661,
+            "height": 661,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "https://www.halfpricedrapes.com/cdn/shop/files/Badges_1_be0e3f2a-db3d-4784-ba56-894ac0fb33e9_300x300.png?v=1759335063",
+            "alt": "",
+            "width": 140,
+            "height": 60,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "",
+            "alt": "Zoom",
+            "width": 0,
+            "height": 0,
+            "loaded": true,
+            "status": 200,
+            "error": "Image has zero dimensions"
+          },
+          {
+            "src": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==",
+            "alt": "Birch Textured Faux Linen Room Darkening Curtain",
+            "width": 661,
+            "height": 661,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "https://www.halfpricedrapes.com/cdn/shop/files/Badges_1_be0e3f2a-db3d-4784-ba56-894ac0fb33e9_300x300.png?v=1759335063",
+            "alt": "",
+            "width": 140,
+            "height": 60,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "https://www.halfpricedrapes.com/cdn/shop/files/BOCH-LN1856-front-view_200x_crop_center.jpg?v=1763490945",
+            "alt": "Birch Textured Faux Linen Room Darkening Curtain",
+            "width": 200,
+            "height": 200,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "https://www.halfpricedrapes.com/cdn/shop/files/BOCH-LN1856-hook-belt-header_200x_crop_center.jpg?v=1763490956",
+            "alt": "Birch Textured Faux Linen Room Darkening Curtain",
+            "width": 200,
+            "height": 200,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "https://www.halfpricedrapes.com/cdn/shop/files/BOCH-LN1856-back-tab-header_200x_crop_center.jpg?v=1763490960",
+            "alt": "Birch Textured Faux Linen Room Darkening Curtain",
+            "width": 200,
+            "height": 200,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "https://www.halfpricedrapes.com/cdn/shop/files/BOCH-LN1856-pole-pocket-header_200x_crop_center.jpg?v=1763490969",
+            "alt": "Birch Textured Faux Linen Room Darkening Curtain",
+            "width": 200,
+            "height": 200,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "https://www.halfpricedrapes.com/cdn/shop/files/BOCH-LN1856-GR-extra-view-1_47ef19e4-64c2-4b82-9017-001bad2eb97e_200x_crop_center.jpg?v=1763490990",
+            "alt": "Birch Textured Faux Linen Room Darkening Curtain",
+            "width": 200,
+            "height": 200,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "https://www.halfpricedrapes.com/cdn/shop/files/BOCH-LN1856-FP-light-view_873beb54-409a-4cdf-b894-d513a6820c55_200x_crop_center.jpg?v=1763490993",
+            "alt": "Birch Textured Faux Linen Room Darkening Curtain",
+            "width": 200,
+            "height": 200,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "https://www.halfpricedrapes.com/cdn/shop/files/BOCH-LN1856-FP-swatch-view_99cb6405-8d02-4d62-8b70-21a280f14074.jpg?v=1763490748",
+            "alt": "Birch Textured Faux Linen Room Darkening Curtain",
+            "width": 1500,
+            "height": 1500,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "",
+            "alt": "",
+            "width": 64,
+            "height": 64,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "https://www.halfpricedrapes.com/cdn/shop/files/BOCH-LN1857-swatch-view_025d73f0-687c-48c1-b45e-a462aad962d5_medium.jpg?v=1763491164",
+            "alt": "Oatmeal Textured Faux Linen Room Darkening Curtain",
+            "width": 240,
+            "height": 240,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "https://www.halfpricedrapes.com/cdn/shop/files/BOCH-LN1855-GR-swatch-view_ec113040-1cce-4a39-b212-f61f03ca58fd_medium.jpg?v=1763490090",
+            "alt": "Oyster Textured Faux Linen Room Darkening Curtain",
+            "width": 240,
+            "height": 240,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "https://www.halfpricedrapes.com/cdn/shop/files/BOCH-LN18542-DW-swatch-view_3e36f928-4dad-4a3d-87c8-ab9f903b23ce_medium.jpg?v=1763500062",
+            "alt": "Thatched Tan Textured Faux Linen Room Darkening Curtain",
+            "width": 240,
+            "height": 240,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "https://www.halfpricedrapes.com/cdn/shop/files/BOCH-LN1853-swatch-view_medium.jpg?v=1763488437",
+            "alt": "Indigo Textured Faux Linen Room Darkening Curtain",
+            "width": 240,
+            "height": 240,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "https://www.halfpricedrapes.com/cdn/shop/files/BOCH-LN18520-DW-swatch-view_c57d5174-7c5c-48e5-983a-60db11666656_medium.jpg?v=1763497638",
+            "alt": "Tuscany Green Textured Faux Linen Room Darkening Curtain",
+            "width": 240,
+            "height": 240,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "https://www.halfpricedrapes.com/cdn/shop/files/BOCH-LN1859-DW-swatch-view_medium.jpg?v=1763492085",
+            "alt": "Heather Grey Textured Faux Linen Room Darkening Curtain",
+            "width": 240,
+            "height": 240,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "https://www.halfpricedrapes.com/cdn/shop/files/BOCH-LN18541-GR-swatch-view_14652770-0877-4146-96e9-332142a7a149_medium.jpg?v=1763499494",
+            "alt": "Dutch Cocoa Textured Faux Linen Room Darkening Curtain",
+            "width": 240,
+            "height": 240,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "https://www.halfpricedrapes.com/cdn/shop/files/BOCH-LN18537-DW-swatch-view_ecc411f0-4723-4c24-a2ae-4fc953cdfaa0_medium.jpg?v=1763499219",
+            "alt": "Sea Thistle Textured Faux Linen Room Darkening Curtain",
+            "width": 240,
+            "height": 240,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "https://www.halfpricedrapes.com/cdn/shop/files/BOCH-LN1854-FP-swatch-view_091d462c-ef6f-40b9-9d91-73bb9dcab65b_medium.jpg?v=1763489577",
+            "alt": "Dark Gravel Textured Faux Linen Room Darkening Curtain",
+            "width": 240,
+            "height": 240,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "https://www.halfpricedrapes.com/cdn/shop/files/BOCH-LN22302-swatch-view_fc09afdf-2a34-43e5-81f5-c82826fd7eb3_medium.jpg?v=1763502281",
+            "alt": "Khaki Green Textured Faux Linen Room Darkening Curtain",
+            "width": 240,
+            "height": 240,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "https://www.halfpricedrapes.com/cdn/shop/files/BOCH-LN18519-GR-swatch-view_fe9124d4-efbd-4cf8-8698-93c04a5e6ece_medium.jpg?v=1763497403",
+            "alt": "Butterscotch Textured Faux Linen Room Darkening Curtain",
+            "width": 240,
+            "height": 240,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "https://www.halfpricedrapes.com/cdn/shop/files/BOCH-LN21333-DW-swatch-view_medium.jpg?v=1762530504",
+            "alt": "Essential Black Textured Faux Linen Room Darkening Curtain",
+            "width": 240,
+            "height": 240,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "https://www.halfpricedrapes.com/cdn/shop/files/BOCH-LN21330-GR-swatch-view_469642fc-9018-4280-b6ee-984426437b1e_medium.jpg?v=1763501870",
+            "alt": "Reverie Blue Textured Faux Linen Room Darkening Curtain",
+            "width": 240,
+            "height": 240,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "https://www.halfpricedrapes.com/cdn/shop/files/BOCH-LN18517-swatch-view_d37ebbed-ded3-4a47-b569-54fb095345d6_medium.jpg?v=1763496449",
+            "alt": "Desert Orange Textured Faux Linen Room Darkening Curtain",
+            "width": 240,
+            "height": 240,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "https://www.halfpricedrapes.com/cdn/shop/files/BOCH-LN18511-DW-swatch-view_ad5ae1aa-414b-4938-91ce-d23464a09b5e_medium.jpg?v=1763495075",
+            "alt": "Mink Textured Faux Linen Room Darkening Curtain",
+            "width": 240,
+            "height": 240,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "https://www.halfpricedrapes.com/cdn/shop/files/BOCH-LN1858-FP-swatch-view_medium.jpg?v=1762531231",
+            "alt": "Clay Textured Faux Linen Room Darkening Curtain",
+            "width": 240,
+            "height": 240,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "https://www.halfpricedrapes.com/cdn/shop/files/BOCH-LN21332-GR-swatch-view_medium.jpg?v=1762530504",
+            "alt": "Nightfall Navy Textured Faux Linen Room Darkening Curtain",
+            "width": 240,
+            "height": 240,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "https://www.halfpricedrapes.com/cdn/shop/files/BOCH-LN18512-DW-swatch-view_8b9e32e4-03ab-4eb9-aa24-952d2e50a223_medium.jpg?v=1763496254",
+            "alt": "Denim Textured Faux Linen Room Darkening Curtain",
+            "width": 240,
+            "height": 240,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "https://www.halfpricedrapes.com/cdn/shop/files/BOCH-LN18538-DW-swatch-view_912465af-6bfe-4b0c-9285-fad0e40ad794_medium.jpg?v=1762530486",
+            "alt": "Nomad Tan Textured Faux Linen Room Darkening Curtain",
+            "width": 240,
+            "height": 240,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "https://www.halfpricedrapes.com/cdn/shop/files/BOCH-LN21328-FP-swatch-view_medium.jpg?v=1763500862",
+            "alt": "Focal Green Textured Faux Linen Room Darkening Curtain",
+            "width": 240,
+            "height": 240,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "https://www.halfpricedrapes.com/cdn/shop/products/BOCH-LN18523-SW_49427_medium.jpg?v=1762530479",
+            "alt": "Slate Teal Green Textured Faux Linen Room Darkening Curtain",
+            "width": 240,
+            "height": 240,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "https://www.halfpricedrapes.com/cdn/shop/files/83J_e38881cd-108b-436e-9779-930d8ee2417d_medium.jpg?v=1762531222",
+            "alt": "Blazer Grey Textured Faux Linen Room Darkening Curtain",
+            "width": 240,
+            "height": 240,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "https://www.halfpricedrapes.com/cdn/shop/files/BOCH-LN18518-DW-swatch-view_2ce4846b-b19f-41a1-846d-fbb530d8d2b7_medium.jpg?v=1763496695",
+            "alt": "Dandelion Gold Textured Faux Linen Room Darkening Curtain",
+            "width": 240,
+            "height": 240,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "https://www.halfpricedrapes.com/cdn/shop/files/BOCH-LN21331-DW-swatch-view_medium.jpg?v=1762530501",
+            "alt": "Story Blue Textured Faux Linen Room Darkening Curtain",
+            "width": 240,
+            "height": 240,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "https://www.halfpricedrapes.com/cdn/shop/files/BOCH-LN21327-GR-swatch-view_3e3bc981-29f2-4a5d-988c-bc7e927bc323_medium.jpg?v=1763500471",
+            "alt": "Key Green Textured Faux Linen Room Darkening Curtain",
+            "width": 240,
+            "height": 240,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "https://www.halfpricedrapes.com/cdn/shop/files/BOCH-LN1856-hook-belt-header_small.jpg?v=1763490956",
+            "alt": "",
+            "width": 100,
+            "height": 100,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "https://www.halfpricedrapes.com/cdn/shop/files/BOCH-LN1856-hook-belt-header_small.jpg?v=1763490956",
+            "alt": "",
+            "width": 100,
+            "height": 100,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "https://www.halfpricedrapes.com/cdn/shop/files/BOCH-LN1856-GR-grommet-header_small.jpg?v=1763490768",
+            "alt": "",
+            "width": 100,
+            "height": 100,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "https://www.halfpricedrapes.com/cdn/shop/files/BOCH-LN1856-FP-french-pleat-header_64a18dea-676e-4752-babb-9c0878412116_small.jpg?v=1763490688",
+            "alt": "",
+            "width": 100,
+            "height": 100,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "https://cdn.shopify.com/s/files/1/0576/6856/7211/files/Length-1_6.jpg?v=1647550062",
+            "alt": "",
+            "width": 0,
+            "height": 0,
+            "loaded": false,
+            "status": 200,
+            "error": "Image has zero dimensions"
+          },
+          {
+            "src": "https://cdn.shopify.com/s/files/1/0843/7373/3685/files/Shipping_dfb1ad02-cf03-425e-ad96-71a770d2ba29.png?v=1736158380",
+            "alt": "",
+            "width": 1109,
+            "height": 1109,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "https://cdn.shopify.com/s/files/1/0576/6856/7211/files/starburst_with_check_new.png?v=1737531922",
+            "alt": "",
+            "width": 1276,
+            "height": 1280,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "https://www.halfpricedrapes.com/cdn/shop/products/HOOKS_56910.jpg?v=1762531660&width=100",
+            "alt": "Heavy Duty Drapery Pin Hooks (22 per bag)",
+            "width": 100,
+            "height": 100,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "https://www.halfpricedrapes.com/cdn/shop/products/HDW-LTF3632N_83680.jpg?v=1762534359&width=100",
+            "alt": "Classic Sphere Ball Nickel Extendable Metal Rod Set",
+            "width": 100,
+            "height": 100,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "https://cdn.shopify.com/s/files/1/0576/6856/7211/products/VPCH-192018-CC18PR_86271.jpg?v=1762534489",
+            "alt": "Burgundy Signature Velvet Cushion Covers - Pair - HalfPriceDrapes.com",
+            "width": 1500,
+            "height": 1500,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "https://www.halfpricedrapes.com/cdn/shop/files/BOCH-LN1856-DW-front-view_540x.jpg?v=1763490807",
+            "alt": "",
+            "width": 499,
+            "height": 499,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "https://www.halfpricedrapes.com/cdn/shop/files/BOCH-LN1856-DW-hook-belt-header.jpg?v=1763490810",
+            "alt": "",
+            "width": 1920,
+            "height": 1920,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "https://www.halfpricedrapes.com/cdn/shop/files/Badges_1_be0e3f2a-db3d-4784-ba56-894ac0fb33e9_300x300.png?v=1759335063",
+            "alt": "",
+            "width": 62,
+            "height": 26,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "https://www.halfpricedrapes.com/cdn/shop/files/BOCH-LN1856-FP-front-view_64cd783d-154f-43b2-aa70-4608b49f226e_540x.jpg?v=1763490686",
+            "alt": "",
+            "width": 499,
+            "height": 499,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "https://www.halfpricedrapes.com/cdn/shop/files/BOCH-LN1856-FP-french-pleat-header_64a18dea-676e-4752-babb-9c0878412116.jpg?v=1763490688",
+            "alt": "",
+            "width": 1920,
+            "height": 1920,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "https://www.halfpricedrapes.com/cdn/shop/files/Badges_1_be0e3f2a-db3d-4784-ba56-894ac0fb33e9_300x300.png?v=1759335063",
+            "alt": "",
+            "width": 62,
+            "height": 26,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "https://www.halfpricedrapes.com/cdn/shop/files/Textured_Faux_Linen_Curtains_-_Collection_Box_900x.jpg?v=1754935747",
+            "alt": "",
+            "width": 884,
+            "height": 462,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "",
+            "alt": "Image of review by Mariann S. on 20 November 25 number 1",
+            "width": 468,
+            "height": 468,
+            "loaded": true,
+            "status": 200,
+            "error": null
+          },
+          {
+            "src": "https://secure.adnxs.com/px?id=1384563&t=2",
+            "alt": "",
+            "width": 1,
+            "height": 1,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "https://secure.adnxs.com/px?id=1772888&t=2",
+            "alt": "",
+            "width": 1,
+            "height": 1,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "data:image/svg+xml,%3csvg width='12' height='13' viewBox='0 0 12 13' fill='none' xmlns='http://www.w3.org/2000/svg'%3e %3cpath d='M6 2.51562L6.5625 1.55469C6.9375 0.898438 7.61719 0.5 8.36719 0.5H8.4375C9.5625 0.5 10.5 1.4375 10.5 2.5625C10.5 2.91406 10.4062 3.21875 10.2656 3.5H10.875C11.4844 3.5 12 4.01562 12 4.625V6.125C12 6.61719 11.6719 7.03906 11.25 7.20312V11C11.25 11.8438 10.5703 12.5 9.75 12.5H2.25C1.40625 12.5 0.75 11.8438 0.75 11V7.20312C0.304688 7.03906 0 6.61719 0 6.125V4.625C0 4.01562 0.492188 3.5 1.125 3.5H1.71094C1.57031 3.21875 1.5 2.91406 1.5 2.5625C1.5 1.4375 2.41406 0.5 3.5625 0.5H3.60938C4.35938 0.5 5.03906 0.898438 5.41406 1.55469L6 2.51562ZM6.75 4.625V6.125H10.875V4.625H6.75ZM5.25 4.625H1.125V6.125H5.25V4.625ZM5.25 7.25H1.875V11C1.875 11.2109 2.03906 11.375 2.25 11.375H5.25V7.25ZM6.75 11.375H9.75C9.9375 11.375 10.125 11.2109 10.125 11V7.25H6.75V11.375ZM8.4375 3.5C8.95312 3.5 9.375 3.10156 9.375 2.5625C9.375 2.04688 8.95312 1.625 8.4375 1.625H8.36719C8.01562 1.625 7.71094 1.8125 7.52344 2.11719L6.70312 3.5H8.4375ZM5.27344 3.5L4.45312 2.11719C4.26562 1.8125 3.96094 1.625 3.60938 1.625H3.5625C3.02344 1.625 2.625 2.04688 2.625 2.5625C2.625 3.10156 3.02344 3.5 3.5625 3.5H5.27344Z' fill='%23212121' fill-opacity='0.8'/%3e %3c/svg%3e",
+            "alt": "The Rave",
+            "width": 12,
+            "height": 13,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "data:image/svg+xml,%3csvg width='12' height='12' viewBox='0 0 12 12' fill='none' xmlns='http://www.w3.org/2000/svg'%3e %3cpath d='M11.3438 10.4336C11.6602 10.7852 11.6602 11.3125 11.3438 11.6289C10.9922 11.9805 10.4648 11.9805 10.1484 11.6289L6 7.44531L1.81641 11.6289C1.46484 11.9805 0.9375 11.9805 0.621094 11.6289C0.269531 11.3125 0.269531 10.7852 0.621094 10.4336L4.80469 6.25L0.621094 2.06641C0.269531 1.71484 0.269531 1.1875 0.621094 0.871094C0.9375 0.519531 1.46484 0.519531 1.78125 0.871094L6 5.08984L10.1836 0.90625C10.5 0.554688 11.0273 0.554688 11.3438 0.90625C11.6953 1.22266 11.6953 1.75 11.3438 2.10156L7.16016 6.25L11.3438 10.4336Z' fill='%23191926' fill-opacity='0.8'/%3e %3c/svg%3e",
+            "alt": "Close",
+            "width": 12,
+            "height": 12,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "https://secure.adnxs.com/px?id=1384563&t=2",
+            "alt": "",
+            "width": 1,
+            "height": 1,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "https://secure.adnxs.com/px?id=1772888&t=2",
+            "alt": "",
+            "width": 1,
+            "height": 1,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "https://bat.bing.com/action/0?ti=5738608&Ver=2&mid=69848afe-0c98-4a29-88ce-9289aa60cd72&bo=1&sid=5ca73650ca7d11f0931a89436d6e2560&vid=5ca77b00ca7d11f09a691dfb23e950f3&vids=0&msclkid=N&pi=918639831&lg=en-GB&sw=1440&sh=900&sc=30&nwd=1&tl=Birch%20Textured%20Faux%20Linen%20Room%20Darkening%20Curtain&p=https%3A%2F%2Fwww.halfpricedrapes.com%2Fproducts%2Fbirch-textured-faux-linen-room-darkening-curtain%3Fvariant%3D41163166253227&r=&lt=603&evt=pageLoad&sv=2&cdb=AQAQ&rn=360927",
+            "alt": "",
+            "width": 0,
+            "height": 0,
+            "loaded": false,
+            "status": 200,
+            "error": "Image has zero dimensions"
+          }
+        ]
+      },
+      "errors": {
+        "passed": true,
+        "consoleErrors": [
+          {
+            "type": "page_error",
+            "message": "Unexpected token ':'",
+            "stack": "SyntaxError: Unexpected token ':'\n    at p (https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js:2:523)\n    at globalEval (https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js:2:2581)\n    at text script (https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js:4:17036)\n    at Qb (https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js:4:10192)\n    at A (https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js:4:13719)\n    at <anonymous> (https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js:4:16323)",
+            "timestamp": "2025-11-26T04:07:31.442Z",
+            "severity": "warning"
+          },
+          {
+            "type": "console_error",
+            "message": "Failed to load resource: net::ERR_TIMED_OUT",
+            "location": null,
+            "timestamp": "2025-11-26T04:07:58.369Z",
+            "severity": "warning"
+          },
+          {
+            "type": "console_error",
+            "message": "Failed to load resource: net::ERR_TIMED_OUT",
+            "location": null,
+            "timestamp": "2025-11-26T04:08:00.578Z",
+            "severity": "warning"
+          }
+        ],
+        "networkFailures": [
+          {
+            "url": "https://www.halfpricedrapes.com/api/collect",
+            "method": "POST",
+            "failure": "net::ERR_ABORTED",
+            "timestamp": "2025-11-26T04:07:31.471Z"
+          },
+          {
+            "url": "https://www.google.com/ccm/collect?frm=0&en=page_view&dl=https%3A%2F%2Fwww.halfpricedrapes.com%2Fproducts%2Fbirch-textured-faux-linen-room-darkening-curtain&scrsrc=www.googletagmanager.com&rnd=289994337.1764130051&dt=Birch%20Textured%20Faux%20Linen%20Room%20Darkening%20Curtain&auid=1711406449.1764130022&navt=n&npa=0&gdid=dN2ZkMj&gtm=45He5bi1v9217951150za200zd9217951150xea&gcd=13l3l3l3l1l1&dma=0&tag_exp=103116026~103200004~104527906~104528500~104684208~104684211~105446120~115583767~115938465~115938468~116184927~116184929~116217636~116217638&tft=1764130051408&tfd=688&apve=1&apvf=f",
+            "method": "POST",
+            "failure": "net::ERR_ABORTED",
+            "timestamp": "2025-11-26T04:07:31.521Z"
+          },
+          {
+            "url": "https://analytics.google.com/g/collect?v=2&tid=G-6PMM7S0R7L&gtm=45je5bi1v878102713z89217951150za200zb9217951150zd9217951150&_p=1764130051185&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=252824768.1764130023&ecid=2041664257&ul=en-gb&sr=1440x900&ir=1&uaa=arm&uab=64&uafvl=Chromium%3B127.0.6533.88%7CNot)A%253BBrand%3B99.0.0.0&uamb=0&uam=&uap=macOS&uapv=13.5.0&uaw=0&are=1&frm=0&pscdl=&ec_mode=a&_eu=EAAAAAQ&_s=1&tag_exp=103116026~103200004~104527906~104528501~104684208~104684211~115583767~115938465~115938469~116184927~116184929~116217636~116217638&sid=1764130022&sct=1&seg=1&dl=https%3A%2F%2Fwww.halfpricedrapes.com%2Fproducts%2Fbirch-textured-faux-linen-room-darkening-curtain%3Fvariant%3D41163166253227&dt=Birch%20Textured%20Faux%20Linen%20Room%20Darkening%20Curtain&en=page_view&tfd=787",
+            "method": "POST",
+            "failure": "net::ERR_ABORTED",
+            "timestamp": "2025-11-26T04:07:31.606Z"
+          },
+          {
+            "url": "https://shop.app/pay/hop?analytics_trace_id=aece144f-bd64-4013-bddb-5512807ad4cf&target_origin=https%3A%2F%2Fwww.halfpricedrapes.com&client_handle=halfpricedrapes-com.myshopify.com",
+            "method": "GET",
+            "failure": "net::ERR_TIMED_OUT",
+            "timestamp": "2025-11-26T04:07:32.006Z"
+          },
+          {
+            "url": "https://www.googletagmanager.com/gtag/js?id=G-4WMVWHVG2M",
+            "method": "GET",
+            "failure": "net::ERR_BLOCKED_BY_ORB",
+            "timestamp": "2025-11-26T04:07:32.195Z"
+          },
+          {
+            "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-4WMVWHVG2M&gtm=45je5bi1v878102713z89217951150za200zb9217951150zd9217951150&_p=1764130051185&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=252824768.1764130023&ul=en-gb&sr=1440x900&ir=1&uaa=arm&uab=64&uafvl=Chromium%3B127.0.6533.88%7CNot)A%253BBrand%3B99.0.0.0&uamb=0&uam=&uap=macOS&uapv=13.5.0&uaw=0&are=1&frm=0&pscdl=&_eu=EAAAAAQ&_s=1&tag_exp=103116026~103200004~104527906~104528501~104684208~104684211~115583767~115938465~115938469~116184927~116184929~116217636~116217638&sid=1764130022&sct=1&seg=1&dl=https%3A%2F%2Fwww.halfpricedrapes.com%2Fproducts%2Fbirch-textured-faux-linen-room-darkening-curtain%3Fvariant%3D41163166253227&dt=Birch%20Textured%20Faux%20Linen%20Room%20Darkening%20Curtain&en=page_view&tfd=1383",
+            "method": "POST",
+            "failure": "net::ERR_ABORTED",
+            "timestamp": "2025-11-26T04:07:32.200Z"
+          },
+          {
+            "url": "https://www.googletagmanager.com/gtag/js?id=G-4WMVWHVG2M&cx=c&gtm=4e5bi1",
+            "method": "GET",
+            "failure": "net::ERR_BLOCKED_BY_ORB",
+            "timestamp": "2025-11-26T04:07:32.256Z"
+          },
+          {
+            "url": "https://app.launchdarkly.com/sdk/evalx/648a2c192ea71812f4b173f2/contexts/eyJraW5kIjoiRmluZ2VycHJpbnQiLCJrZXkiOiI0MzUxMTc3NjA5ODU3OTM2MzkifQ",
+            "method": "GET",
+            "failure": "net::ERR_ABORTED",
+            "timestamp": "2025-11-26T04:07:32.326Z"
+          },
+          {
+            "url": "https://s.amazon-adsystem.com/iu3?pid=5994a3c0-fb11-4fe5-8fd4-a8d905ba6ed0&event=PageView&ts=1764130051429&eventSource=amzn.js&uuid=858bbf86-adb5-416d-8bb5-3550a1e78652&dcc=t",
+            "method": "GET",
+            "failure": "net::ERR_ABORTED",
+            "timestamp": "2025-11-26T04:07:32.391Z"
+          },
+          {
+            "url": "https://s.amazon-adsystem.com/iu3?pid=5994a3c0-fb11-4fe5-8fd4-a8d905ba6ed0&event=PageView&ts=1764130051443&eventSource=amzn.js&uuid=38df3921-8487-4ef9-ba9e-6d5b39122b29&dcc=t",
+            "method": "GET",
+            "failure": "net::ERR_ABORTED",
+            "timestamp": "2025-11-26T04:07:32.406Z"
+          },
+          {
+            "url": "https://clientstream.launchdarkly.com/eval/648a2c192ea71812f4b173f2/eyJraW5kIjoiRmluZ2VycHJpbnQiLCJrZXkiOiI0MzUxMTc3NjA5ODU3OTM2MzkifQ",
+            "method": "GET",
+            "failure": "net::ERR_ABORTED",
+            "timestamp": "2025-11-26T04:07:36.627Z"
+          },
+          {
+            "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-4WMVWHVG2M&gtm=45je5bi1v878102713za200zb9217951150zd9217951150&_p=1764130051185&gcs=G111&gcd=13t3n3t3t5l1&npa=0&dma=0&gdid=dN2ZkMj&cid=252824768.1764130023&ul=en-gb&sr=1440x900&ir=1&uaa=arm&uab=64&uafvl=Chromium%3B127.0.6533.88%7CNot)A%253BBrand%3B99.0.0.0&uamb=0&uam=&uap=macOS&uapv=13.5.0&uaw=0&are=1&frm=0&pscdl=&_eu=EAAAAAQ&_s=2&tag_exp=103116026~103200004~104527906~104528501~104684208~104684211~115583767~115938465~115938469~116184927~116184929~116217636~116217638&sid=1764130022&sct=1&seg=1&dl=https%3A%2F%2Fwww.halfpricedrapes.com%2Fproducts%2Fbirch-textured-faux-linen-room-darkening-curtain%3Fvariant%3D41163166253227&dt=Birch%20Textured%20Faux%20Linen%20Room%20Darkening%20Curtain&en=page_view&_ee=1&ep.debug_mode=true&ep.app=blotout&_et=589&tfd=6384",
+            "method": "POST",
+            "failure": "net::ERR_ABORTED",
+            "timestamp": "2025-11-26T04:07:37.215Z"
+          },
+          {
+            "url": "https://shop.app/pay/sdk-session?extend_buyer_identity_sdk=1&analytics_context=loginWithShopPrequal&analytics_trace_id=c3bb8445-effe-4861-8e1a-1f42d3c7f72c&avoid_sdk_session=false&compact_layout=false&flow=prequal&flow_version=prequalAmount&hide_copy=true&locale=en&preact=true&prompt=login&redirect_uri=https%3A%2F%2Fwww.halfpricedrapes.com%2Fservices%2Flogin_with_shop%2Fcallback&require_verification=false&response_mode=form_post&response_type=id_token&scope=openid+pay%3Asession_token+profile+shop%3Aaccount_uuid+email+phone&sign_up_enabled=false&target_origin=https%3A%2F%2Fwww.halfpricedrapes.com&client_id=2e054c31-dc1f-4365-8b60-e7a1d1783582&nonce=a2iwLAivjZQpyloZGVCsNztN&state=hWN5iyyE4h6NFvHWvY5SOfOk&storefront_domain=https%3A%2F%2Fwww.halfpricedrapes.com&uniq_token=f2af8bd8-76fb-498c-91f8-619fa6e8d335&visit_token=7bda5e4a-6ba9-4367-85ac-87e334f5edc5",
+            "method": "GET",
+            "failure": "net::ERR_TIMED_OUT",
+            "timestamp": "2025-11-26T04:07:56.663Z"
+          },
+          {
+            "url": "https://shop.app/pay/sdk-session?extend_buyer_identity_sdk=1&analytics_context=loginWithShopPrequal&analytics_trace_id=e250bcf8-02d2-41f1-8c82-18c97b98dcb0&avoid_sdk_session=false&compact_layout=false&flow=prequal&flow_version=prequalAmount&hide_copy=true&locale=en&preact=true&prompt=login&redirect_uri=https%3A%2F%2Fwww.halfpricedrapes.com%2Fservices%2Flogin_with_shop%2Fcallback&require_verification=false&response_mode=form_post&response_type=id_token&scope=openid+pay%3Asession_token+profile+shop%3Aaccount_uuid+email+phone&sign_up_enabled=false&target_origin=https%3A%2F%2Fwww.halfpricedrapes.com&client_id=2e054c31-dc1f-4365-8b60-e7a1d1783582&nonce=CiQcrERI2ocPeMIvkPeyB9Kq&state=hWN5iyyE4hGVTzr70lFq6iQM&storefront_domain=https%3A%2F%2Fwww.halfpricedrapes.com&uniq_token=f2af8bd8-76fb-498c-91f8-619fa6e8d335&visit_token=7bda5e4a-6ba9-4367-85ac-87e334f5edc5",
+            "method": "GET",
+            "failure": "net::ERR_TIMED_OUT",
+            "timestamp": "2025-11-26T04:07:58.200Z"
+          },
+          {
+            "url": "https://shop.app/checkouts/internal/preloads.js?locale=en-US&shop_id=57668567211",
+            "method": "GET",
+            "failure": "net::ERR_TIMED_OUT",
+            "timestamp": "2025-11-26T04:07:58.369Z"
+          },
+          {
+            "url": "https://app.shop.pe/app/init/params?siteid=5c9111e8d559301f1ec51b04&product=www.halfpricedrapes.com&product_url=https%3A%2F%2Fwww.halfpricedrapes.com%2Fproducts%2Fbirch-textured-faux-linen-room-darkening-curtain&image=&price=&currency=undefined&rating=0&rating_count=0&review_count=0&stock_status=&description=&update_product=true&subcategory=&url=https%3A%2F%2Fwww.halfpricedrapes.com%2Fproducts%2Fbirch-textured-faux-linen-room-darkening-curtain%3Fvariant%3D41163166253227&callback=AddShoppersWidget.load_widget&no_cookie_callback=AddShoppersWidget.load_no_cookie&sos=false&rand=53137&cookie=&referer=",
+            "method": "GET",
+            "failure": "net::ERR_BLOCKED_BY_ORB",
+            "timestamp": "2025-11-26T04:07:58.711Z"
+          },
+          {
+            "url": "https://shop.app/pay/session?v=1",
+            "method": "GET",
+            "failure": "net::ERR_TIMED_OUT",
+            "timestamp": "2025-11-26T04:08:00.578Z"
+          },
+          {
+            "url": "https://www.halfpricedrapes.com/shopify_pay/accelerated_checkout",
+            "method": "POST",
+            "failure": "net::ERR_ABORTED",
+            "timestamp": "2025-11-26T04:08:00.963Z"
+          },
+          {
+            "url": "https://www.halfpricedrapes.com/products/birch-textured-faux-linen-room-darkening-curtain?variant=41163166253227",
+            "method": "HEAD",
+            "failure": "net::ERR_ABORTED",
+            "timestamp": "2025-11-26T04:08:04.158Z"
+          },
+          {
+            "url": "https://www.halfpricedrapes.com/products/birch-textured-faux-linen-room-darkening-curtain?variant=41163166253227",
+            "method": "HEAD",
+            "failure": "net::ERR_ABORTED",
+            "timestamp": "2025-11-26T04:08:04.317Z"
+          },
+          {
+            "url": "https://www.halfpricedrapes.com/products/birch-textured-faux-linen-room-darkening-curtain?variant=41163166253227",
+            "method": "HEAD",
+            "failure": "net::ERR_ABORTED",
+            "timestamp": "2025-11-26T04:08:04.482Z"
+          },
+          {
+            "url": "https://www.halfpricedrapes.com/products/birch-textured-faux-linen-room-darkening-curtain?variant=41163166253227",
+            "method": "HEAD",
+            "failure": "net::ERR_ABORTED",
+            "timestamp": "2025-11-26T04:08:04.646Z"
+          },
+          {
+            "url": "https://www.halfpricedrapes.com/products/birch-textured-faux-linen-room-darkening-curtain?variant=41163166253227",
+            "method": "HEAD",
+            "failure": "net::ERR_ABORTED",
+            "timestamp": "2025-11-26T04:08:04.816Z"
+          },
+          {
+            "url": "https://www.halfpricedrapes.com/products/birch-textured-faux-linen-room-darkening-curtain?variant=41163166253227",
+            "method": "HEAD",
+            "failure": "net::ERR_ABORTED",
+            "timestamp": "2025-11-26T04:08:05.001Z"
+          },
+          {
+            "url": "https://www.halfpricedrapes.com/products/birch-textured-faux-linen-room-darkening-curtain?variant=41163166253227",
+            "method": "HEAD",
+            "failure": "net::ERR_ABORTED",
+            "timestamp": "2025-11-26T04:08:05.157Z"
+          },
+          {
+            "url": "https://cdn.shopify.com/s/files/1/0576/6856/7211/files/Length-1_6.jpg?v=1647550062",
+            "method": "HEAD",
+            "failure": "net::ERR_ABORTED",
+            "timestamp": "2025-11-26T04:08:05.199Z"
+          },
+          {
+            "url": "https://www.halfpricedrapes.com/products/birch-textured-faux-linen-room-darkening-curtain?variant=41163166253227",
+            "method": "HEAD",
+            "failure": "net::ERR_ABORTED",
+            "timestamp": "2025-11-26T04:08:05.358Z"
+          },
+          {
+            "url": "https://bat.bing.com/action/0?ti=5738608&Ver=2&mid=69848afe-0c98-4a29-88ce-9289aa60cd72&bo=1&sid=5ca73650ca7d11f0931a89436d6e2560&vid=5ca77b00ca7d11f09a691dfb23e950f3&vids=0&msclkid=N&pi=918639831&lg=en-GB&sw=1440&sh=900&sc=30&nwd=1&tl=Birch%20Textured%20Faux%20Linen%20Room%20Darkening%20Curtain&p=https%3A%2F%2Fwww.halfpricedrapes.com%2Fproducts%2Fbirch-textured-faux-linen-room-darkening-curtain%3Fvariant%3D41163166253227&r=&lt=603&evt=pageLoad&sv=2&cdb=AQAQ&rn=360927",
+            "method": "HEAD",
+            "failure": "net::ERR_ABORTED",
+            "timestamp": "2025-11-26T04:08:05.671Z"
+          },
+          {
+            "url": "https://www.halfpricedrapes.com/api/collect",
+            "method": "POST",
+            "failure": "net::ERR_ABORTED",
+            "timestamp": "2025-11-26T04:08:06.682Z"
+          },
+          {
+            "url": "https://cdn-yotpo-images-production.yotpo.com/Review/783642674/788738324/square.jpg?1763646570&format=webp",
+            "method": "GET",
+            "failure": "net::ERR_ABORTED",
+            "timestamp": "2025-11-26T04:08:10.123Z"
+          },
+          {
+            "url": "https://www.halfpricedrapes.com/api/collect",
+            "method": "POST",
+            "failure": "net::ERR_ABORTED",
+            "timestamp": "2025-11-26T04:08:11.829Z"
+          },
+          {
+            "url": "https://analytics.google.com/g/collect?v=2&tid=G-6PMM7S0R7L&gtm=45je5bi1v878102713za200zb9217951150zd9217951150&_p=1764130051185&_gaz=1&gcs=G111&gcd=13t3n3t3t5l1&npa=0&dma=0&gdid=dN2ZkMj&cid=252824768.1764130023&ecid=2041664257&ul=en-gb&sr=1440x900&ir=1&uaa=arm&uab=64&uafvl=Chromium%3B127.0.6533.88%7CNot)A%253BBrand%3B99.0.0.0&uamb=0&uam=&uap=macOS&uapv=13.5.0&uaw=0&are=1&frm=0&pscdl=&_eu=EEAAAAQ&_s=2&tag_exp=103116026~103200004~104527906~104528501~104684208~104684211~115583767~115938465~115938469~116184927~116184929~116217636~116217638&sid=1764130022&sct=1&seg=1&dl=https%3A%2F%2Fwww.halfpricedrapes.com%2Fproducts%2Fbirch-textured-faux-linen-room-darkening-curtain%3Fvariant%3D41163166253227&dt=Birch%20Textured%20Faux%20Linen%20Room%20Darkening%20Curtain&en=scroll&epn.percent_scrolled=90&_et=44888&tfd=45678",
+            "method": "POST",
+            "failure": "net::ERR_ABORTED",
+            "timestamp": "2025-11-26T04:08:16.537Z"
+          },
+          {
+            "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-4WMVWHVG2M&gtm=45je5bi1v878102713za200zb9217951150zd9217951150&_p=1764130051185&gcs=G111&gcd=13t3n3t3t5l1&npa=0&dma=0&gdid=dN2ZkMj&cid=252824768.1764130023&ul=en-gb&sr=1440x900&ir=1&uaa=arm&uab=64&uafvl=Chromium%3B127.0.6533.88%7CNot)A%253BBrand%3B99.0.0.0&uamb=0&uam=&uap=macOS&uapv=13.5.0&uaw=0&are=1&frm=0&pscdl=&_eu=EEAAAAQ&_s=3&tag_exp=103116026~103200004~104527906~104528501~104684208~104684211~115583767~115938465~115938469~116184927~116184929~116217636~116217638&sid=1764130022&sct=1&seg=1&dl=https%3A%2F%2Fwww.halfpricedrapes.com%2Fproducts%2Fbirch-textured-faux-linen-room-darkening-curtain%3Fvariant%3D41163166253227&dt=Birch%20Textured%20Faux%20Linen%20Room%20Darkening%20Curtain&en=scroll&epn.percent_scrolled=90&_et=44301&tfd=50692",
+            "method": "POST",
+            "failure": "net::ERR_ABORTED",
+            "timestamp": "2025-11-26T04:08:21.565Z"
+          }
+        ],
+        "resourceFailures": [],
+        "corsErrors": [],
+        "performanceWarnings": [
+          {
+            "type": "slow_load",
+            "message": "Page load time: 27682ms",
+            "metrics": {
+              "domContentLoaded": 603,
+              "loadComplete": 27682,
+              "firstPaint": null,
+              "firstContentfulPaint": null
+            }
+          }
+        ],
+        "securityErrors": [
+          {
+            "type": "insecure_cookie",
+            "url": "https://www.halfpricedrapes.com/cart.js",
+            "message": "Cookie set without Secure flag on HTTPS page",
+            "timestamp": "2025-11-26T04:07:31.442Z"
+          },
+          {
+            "type": "insecure_cookie",
+            "url": "https://www.halfpricedrapes.com/cart.js",
+            "message": "Cookie set without Secure flag on HTTPS page",
+            "timestamp": "2025-11-26T04:07:31.587Z"
+          },
+          {
+            "type": "insecure_cookie",
+            "url": "https://www.clarity.ms/tag/uet/5738608?insights=1",
+            "message": "Cookie set without Secure flag on HTTPS page",
+            "timestamp": "2025-11-26T04:07:31.658Z"
+          },
+          {
+            "type": "insecure_cookie",
+            "url": "https://www.halfpricedrapes.com/cart.js",
+            "message": "Cookie set without Secure flag on HTTPS page",
+            "timestamp": "2025-11-26T04:07:36.593Z"
+          },
+          {
+            "type": "insecure_cookie",
+            "url": "https://insight.adsrvr.org/track/cei?advertiser_id=vae0rs4&cookie_sync=1&upv=3.0.0&upid=yedbyd2&ref=https://www.halfpricedrapes.com/products/birch-textured-faux-linen-room-darkening-curtain?variant=41163166253227",
+            "message": "Cookie set without Secure flag on HTTPS page",
+            "timestamp": "2025-11-26T04:07:58.705Z"
+          },
+          {
+            "type": "insecure_cookie",
+            "url": "https://insight.adsrvr.org/track/cei?advertiser_id=vae0rs4&cookie_sync=1&upv=3.0.0&upid=yedbyd2&ref=https://www.halfpricedrapes.com/products/birch-textured-faux-linen-room-darkening-curtain?variant=41163166253227",
+            "message": "Cookie set without Secure flag on HTTPS page",
+            "timestamp": "2025-11-26T04:07:58.800Z"
+          },
+          {
+            "type": "insecure_cookie",
+            "url": "https://www.halfpricedrapes.com/products/birch-textured-faux-linen-room-darkening-curtain?variant=41163166253227",
+            "message": "Cookie set without Secure flag on HTTPS page",
+            "timestamp": "2025-11-26T04:08:05.156Z"
+          },
+          {
+            "type": "insecure_cookie",
+            "url": "https://www.halfpricedrapes.com/cart.js",
+            "message": "Cookie set without Secure flag on HTTPS page",
+            "timestamp": "2025-11-26T04:08:05.356Z"
+          },
+          {
+            "type": "insecure_cookie",
+            "url": "https://www.halfpricedrapes.com/products/birch-textured-faux-linen-room-darkening-curtain?variant=41163166253227",
+            "message": "Cookie set without Secure flag on HTTPS page",
+            "timestamp": "2025-11-26T04:08:05.357Z"
+          },
+          {
+            "type": "insecure_cookie",
+            "url": "https://www.halfpricedrapes.com/cart.js",
+            "message": "Cookie set without Secure flag on HTTPS page",
+            "timestamp": "2025-11-26T04:08:05.841Z"
+          },
+          {
+            "type": "insecure_cookie",
+            "url": "https://www.halfpricedrapes.com/cart.js",
+            "message": "Cookie set without Secure flag on HTTPS page",
+            "timestamp": "2025-11-26T04:08:16.694Z"
+          },
+          {
+            "type": "insecure_cookie",
+            "url": "https://www.halfpricedrapes.com/cart.js",
+            "message": "Cookie set without Secure flag on HTTPS page",
+            "timestamp": "2025-11-26T04:08:21.713Z"
+          }
+        ],
+        "totalErrors": 36,
+        "totalWarnings": 0
+      }
+    },
+    {
+      "url": " https://www.halfpricedrapes.com/products/butterscotch-textured-faux-linen-room-darkening-curtain",
+      "platform": "shopify",
+      "timestamp": "2025-11-26T04:08:21.825Z",
+      "overall": {
+        "passed": false
+      },
+      "productPage": {
+        "passed": true,
+        "errors": [],
+        "warnings": [],
+        "elements": {
+          "title": {
+            "found": true,
+            "selector": "h1[class*=\"product\"][class*=\"title\"]",
+            "text": "Butterscotch Textured Faux Linen Room Darkening Curtain"
+          },
+          "price": {
+            "found": true,
+            "selector": "[class*=\"price\"]",
+            "text": "$39.99\n        \n          Regular price\n          $79.98\n        \n  \n        \n        \n          \n          \n             50% OFF\n          \n          \n        \n  \n        \n        \n      \n      \n        Subscription\n        •\n        Save"
+          },
+          "description": {
+            "found": true,
+            "selector": "*[class*=\"rte accordion-content\"]"
+          },
+          "addToCart": {
+            "found": true,
+            "selector": "button[name*=\"add\"]",
+            "visible": true,
+            "enabled": true
+          },
+          "images": {
+            "found": true,
+            "count": 4,
+            "selector": "img[src*=\"product\"]"
+          },
+          "variants": {
+            "found": true,
+            "count": 4,
+            "selector": "[class*=\"variant-size\"]"
+          },
+          "meta": {
+            "title": "Butterscotch Textured Faux Linen Room Darkening Curtain",
+            "description": "Add a dash of style and privacy to your rooms with our Butterscotch Textured Faux Linen Room Darkening Curtain! Perfect for enhancing the home theater, these curtains offer both style and function with their room-darkening features, making them an excellent choice for adding privacy and reducing sunlight."
+          }
+        }
+      },
+      "images": {
+        "passed": false,
+        "totalImages": 78,
+        "loadedImages": 75,
+        "failedImages": [
+          {
+            "src": "",
+            "alt": "HalfPriceDrapes.com",
+            "width": 0,
+            "height": 0,
+            "loaded": true,
+            "status": 200,
+            "error": "Image has zero dimensions"
+          },
+          {
+            "src": "https://cdn.shopify.com/s/files/1/0576/6856/7211/files/Length-1_6.jpg?v=1647550062",
+            "alt": "",
+            "width": 0,
+            "height": 0,
+            "loaded": false,
+            "status": 200,
+            "error": "Image has zero dimensions"
+          },
+          {
+            "src": "https://bat.bing.com/action/0?ti=5738608&Ver=2&mid=9f8bee8b-e13b-4b10-b09e-cdbfbff9c0cf&bo=1&sid=5ca73650ca7d11f0931a89436d6e2560&vid=5ca77b00ca7d11f09a691dfb23e950f3&vids=0&msclkid=N&pi=918639831&lg=en-GB&sw=1440&sh=900&sc=30&nwd=1&tl=Butterscotch%20Textured%20Faux%20Linen%20Room%20Darkening%20Curtain&p=https%3A%2F%2Fwww.halfpricedrapes.com%2Fproducts%2Fbutterscotch-textured-faux-linen-room-darkening-curtain%3Fvariant%3D41163161338027&r=&lt=1019&evt=pageLoad&sv=2&cdb=AQAQ&rn=823175",
+            "alt": "",
+            "width": 0,
+            "height": 0,
+            "loaded": false,
+            "status": 200,
+            "error": "Image has zero dimensions"
+          }
+        ],
+        "missingAltText": [
+          {
+            "src": "https://cdn.shopify.com/s/files/1/0576/6856/7211/files/HPD_Holiday_Logos_8.png?v=1755275784",
+            "width": 867,
+            "height": 111
+          },
+          {
+            "src": "https://cdn.shopify.com/s/files/1/0576/6856/7211/files/HPD_Holiday_Logos_8.png?v=1755275784",
+            "width": 867,
+            "height": 111
+          },
+          {
+            "src": "https://www.halfpricedrapes.com/cdn/shop/files/BOCH-LN18519-front-view_f064b826-95f4-43bb-81f8-ade455a44c96_3000x.jpg?v=1763497423",
+            "width": 1500,
+            "height": 1500
+          },
+          {
+            "src": "https://www.halfpricedrapes.com/cdn/shop/files/Badges_1_be0e3f2a-db3d-4784-ba56-894ac0fb33e9_300x300.png?v=1759335063",
+            "width": 140,
+            "height": 60
+          },
+          {
+            "src": "https://www.halfpricedrapes.com/cdn/shop/files/Badges_1_be0e3f2a-db3d-4784-ba56-894ac0fb33e9_300x300.png?v=1759335063",
+            "width": 140,
+            "height": 60
+          },
+          {
+            "src": "https://www.halfpricedrapes.com/cdn/shop/files/Badges_1_be0e3f2a-db3d-4784-ba56-894ac0fb33e9_300x300.png?v=1759335063",
+            "width": 140,
+            "height": 60
+          },
+          {
+            "src": "https://www.halfpricedrapes.com/cdn/shop/files/Badges_1_be0e3f2a-db3d-4784-ba56-894ac0fb33e9_300x300.png?v=1759335063",
+            "width": 140,
+            "height": 60
+          },
+          {
+            "src": "https://www.halfpricedrapes.com/cdn/shop/files/Badges_1_be0e3f2a-db3d-4784-ba56-894ac0fb33e9_300x300.png?v=1759335063",
+            "width": 140,
+            "height": 60
+          },
+          {
+            "src": "",
+            "width": 64,
+            "height": 64
+          },
+          {
+            "src": "https://www.halfpricedrapes.com/cdn/shop/files/BOCH-LN18519-hook-belt-header_small.jpg?v=1763497426",
+            "width": 100,
+            "height": 100
+          },
+          {
+            "src": "https://www.halfpricedrapes.com/cdn/shop/files/BOCH-LN18519-hook-belt-header_small.jpg?v=1763497426",
+            "width": 100,
+            "height": 100
+          },
+          {
+            "src": "https://www.halfpricedrapes.com/cdn/shop/files/BOCH-LN18519-GR-grommet-header_small.jpg?v=1763497304",
+            "width": 100,
+            "height": 100
+          },
+          {
+            "src": "https://cdn.shopify.com/s/files/1/0843/7373/3685/files/Shipping_dfb1ad02-cf03-425e-ad96-71a770d2ba29.png?v=1736158380",
+            "width": 1109,
+            "height": 1109
+          },
+          {
+            "src": "https://cdn.shopify.com/s/files/1/0576/6856/7211/files/starburst_with_check_new.png?v=1737531922",
+            "width": 1276,
+            "height": 1280
+          },
+          {
+            "src": "https://www.halfpricedrapes.com/cdn/shop/files/BOCH-LN18519-GR-front-view_540x.jpg?v=1763497302",
+            "width": 499,
+            "height": 499
+          },
+          {
+            "src": "https://www.halfpricedrapes.com/cdn/shop/files/BOCH-LN18519-GR-grommet-header.jpg?v=1763497304",
+            "width": 1920,
+            "height": 1920
+          },
+          {
+            "src": "https://www.halfpricedrapes.com/cdn/shop/files/Textured_Faux_Linen_Curtains_-_Collection_Box_900x.jpg?v=1754935747",
+            "width": 884,
+            "height": 462
+          }
+        ],
+        "images": [
+          {
+            "src": "",
+            "alt": "HalfPriceDrapes.com",
+            "width": 0,
+            "height": 0,
+            "loaded": true,
+            "status": 200,
+            "error": "Image has zero dimensions"
+          },
+          {
+            "src": "https://cdn.shopify.com/s/files/1/0576/6856/7211/files/HPD_Holiday_Logos_8.png?v=1755275784",
+            "alt": "",
+            "width": 867,
+            "height": 111,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "https://www.halfpricedrapes.com/cdn/shop/files/Thanksgiving_160x.png?v=1764086935",
+            "alt": "HalfPriceDrapes.com",
+            "width": 139,
+            "height": 83,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "https://cdn.shopify.com/s/files/1/0576/6856/7211/files/HPD_Holiday_Logos_8.png?v=1755275784",
+            "alt": "",
+            "width": 867,
+            "height": 111,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "https://cdn.shopify.com/s/files/1/0843/7373/3685/files/home_2.png?v=1723807419",
+            "alt": "home icon",
+            "width": 16,
+            "height": 16,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "",
+            "alt": "Zoom",
+            "width": 0,
+            "height": 0,
+            "loaded": true,
+            "status": 200,
+            "error": "Image has zero dimensions"
+          },
+          {
+            "src": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==",
+            "alt": "Butterscotch Textured Faux Linen Room Darkening Curtain",
+            "width": 330,
+            "height": 330,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "https://www.halfpricedrapes.com/cdn/shop/files/BOCH-LN18519-front-view_f064b826-95f4-43bb-81f8-ade455a44c96_3000x.jpg?v=1763497423",
+            "alt": "",
+            "width": 1500,
+            "height": 1500,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "https://www.halfpricedrapes.com/cdn/shop/files/Badges_1_be0e3f2a-db3d-4784-ba56-894ac0fb33e9_300x300.png?v=1759335063",
+            "alt": "",
+            "width": 101,
+            "height": 43,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "",
+            "alt": "Zoom",
+            "width": 0,
+            "height": 0,
+            "loaded": true,
+            "status": 200,
+            "error": "Image has zero dimensions"
+          },
+          {
+            "src": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==",
+            "alt": "Butterscotch Textured Faux Linen Room Darkening Curtain",
+            "width": 661,
+            "height": 661,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "https://www.halfpricedrapes.com/cdn/shop/files/Badges_1_be0e3f2a-db3d-4784-ba56-894ac0fb33e9_300x300.png?v=1759335063",
+            "alt": "",
+            "width": 140,
+            "height": 60,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "",
+            "alt": "Zoom",
+            "width": 0,
+            "height": 0,
+            "loaded": true,
+            "status": 200,
+            "error": "Image has zero dimensions"
+          },
+          {
+            "src": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==",
+            "alt": "Butterscotch Textured Faux Linen Room Darkening Curtain",
+            "width": 661,
+            "height": 661,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "https://www.halfpricedrapes.com/cdn/shop/files/Badges_1_be0e3f2a-db3d-4784-ba56-894ac0fb33e9_300x300.png?v=1759335063",
+            "alt": "",
+            "width": 140,
+            "height": 60,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "",
+            "alt": "Zoom",
+            "width": 0,
+            "height": 0,
+            "loaded": true,
+            "status": 200,
+            "error": "Image has zero dimensions"
+          },
+          {
+            "src": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==",
+            "alt": "Butterscotch Textured Faux Linen Room Darkening Curtain",
+            "width": 661,
+            "height": 661,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "https://www.halfpricedrapes.com/cdn/shop/files/Badges_1_be0e3f2a-db3d-4784-ba56-894ac0fb33e9_300x300.png?v=1759335063",
+            "alt": "",
+            "width": 140,
+            "height": 60,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "",
+            "alt": "Zoom",
+            "width": 0,
+            "height": 0,
+            "loaded": true,
+            "status": 200,
+            "error": "Image has zero dimensions"
+          },
+          {
+            "src": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==",
+            "alt": "Butterscotch Textured Faux Linen Room Darkening Curtain",
+            "width": 661,
+            "height": 661,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "https://www.halfpricedrapes.com/cdn/shop/files/Badges_1_be0e3f2a-db3d-4784-ba56-894ac0fb33e9_300x300.png?v=1759335063",
+            "alt": "",
+            "width": 140,
+            "height": 60,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "",
+            "alt": "Zoom",
+            "width": 0,
+            "height": 0,
+            "loaded": true,
+            "status": 200,
+            "error": "Image has zero dimensions"
+          },
+          {
+            "src": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==",
+            "alt": "Butterscotch Textured Faux Linen Room Darkening Curtain",
+            "width": 661,
+            "height": 661,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "https://www.halfpricedrapes.com/cdn/shop/files/Badges_1_be0e3f2a-db3d-4784-ba56-894ac0fb33e9_300x300.png?v=1759335063",
+            "alt": "",
+            "width": 140,
+            "height": 60,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "https://www.halfpricedrapes.com/cdn/shop/files/BOCH-LN18519-front-view_f064b826-95f4-43bb-81f8-ade455a44c96_200x_crop_center.jpg?v=1763497423",
+            "alt": "Butterscotch Textured Faux Linen Room Darkening Curtain",
+            "width": 200,
+            "height": 200,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "https://www.halfpricedrapes.com/cdn/shop/files/BOCH-LN18519-hook-belt-header_200x_crop_center.jpg?v=1763497426",
+            "alt": "Butterscotch Textured Faux Linen Room Darkening Curtain",
+            "width": 200,
+            "height": 200,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "https://www.halfpricedrapes.com/cdn/shop/files/BOCH-LN18519-back-tab-header_59d027b5-52aa-40d0-ae2e-92ec23912416_200x_crop_center.jpg?v=1763497428",
+            "alt": "Butterscotch Textured Faux Linen Room Darkening Curtain",
+            "width": 200,
+            "height": 200,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "https://www.halfpricedrapes.com/cdn/shop/files/BOCH-LN18519-pole-pocket-header_f4968381-a526-4b26-b2d9-4e581b45d6c5_200x_crop_center.jpg?v=1763497435",
+            "alt": "Butterscotch Textured Faux Linen Room Darkening Curtain",
+            "width": 200,
+            "height": 200,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "https://www.halfpricedrapes.com/cdn/shop/files/BOCH-LN18519-GR-extra-view-1_200x_crop_center.jpg?v=1763497442",
+            "alt": "Butterscotch Textured Faux Linen Room Darkening Curtain",
+            "width": 200,
+            "height": 200,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "https://www.halfpricedrapes.com/cdn/shop/files/BOCH-LN18519-light-view_200x_crop_center.jpg?v=1763497446",
+            "alt": "Butterscotch Textured Faux Linen Room Darkening Curtain",
+            "width": 200,
+            "height": 200,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "https://www.halfpricedrapes.com/cdn/shop/files/BOCH-LN18519-GR-swatch-view_fe9124d4-efbd-4cf8-8698-93c04a5e6ece.jpg?v=1763497403",
+            "alt": "Butterscotch Textured Faux Linen Room Darkening Curtain",
+            "width": 1500,
+            "height": 1500,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "",
+            "alt": "",
+            "width": 64,
+            "height": 64,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "https://www.halfpricedrapes.com/cdn/shop/files/BOCH-LN1856-FP-swatch-view_99cb6405-8d02-4d62-8b70-21a280f14074_medium.jpg?v=1763490748",
+            "alt": "Birch Textured Faux Linen Room Darkening Curtain",
+            "width": 240,
+            "height": 240,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "https://www.halfpricedrapes.com/cdn/shop/files/BOCH-LN1857-swatch-view_025d73f0-687c-48c1-b45e-a462aad962d5_medium.jpg?v=1763491164",
+            "alt": "Oatmeal Textured Faux Linen Room Darkening Curtain",
+            "width": 240,
+            "height": 240,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "https://www.halfpricedrapes.com/cdn/shop/files/BOCH-LN1855-GR-swatch-view_ec113040-1cce-4a39-b212-f61f03ca58fd_medium.jpg?v=1763490090",
+            "alt": "Oyster Textured Faux Linen Room Darkening Curtain",
+            "width": 240,
+            "height": 240,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "https://www.halfpricedrapes.com/cdn/shop/files/BOCH-LN18542-DW-swatch-view_3e36f928-4dad-4a3d-87c8-ab9f903b23ce_medium.jpg?v=1763500062",
+            "alt": "Thatched Tan Textured Faux Linen Room Darkening Curtain",
+            "width": 240,
+            "height": 240,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "https://www.halfpricedrapes.com/cdn/shop/files/BOCH-LN1853-swatch-view_medium.jpg?v=1763488437",
+            "alt": "Indigo Textured Faux Linen Room Darkening Curtain",
+            "width": 240,
+            "height": 240,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "https://www.halfpricedrapes.com/cdn/shop/files/BOCH-LN18520-DW-swatch-view_c57d5174-7c5c-48e5-983a-60db11666656_medium.jpg?v=1763497638",
+            "alt": "Tuscany Green Textured Faux Linen Room Darkening Curtain",
+            "width": 240,
+            "height": 240,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "https://www.halfpricedrapes.com/cdn/shop/files/BOCH-LN1859-DW-swatch-view_medium.jpg?v=1763492085",
+            "alt": "Heather Grey Textured Faux Linen Room Darkening Curtain",
+            "width": 240,
+            "height": 240,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "https://www.halfpricedrapes.com/cdn/shop/files/BOCH-LN18541-GR-swatch-view_14652770-0877-4146-96e9-332142a7a149_medium.jpg?v=1763499494",
+            "alt": "Dutch Cocoa Textured Faux Linen Room Darkening Curtain",
+            "width": 240,
+            "height": 240,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "https://www.halfpricedrapes.com/cdn/shop/files/BOCH-LN18537-DW-swatch-view_ecc411f0-4723-4c24-a2ae-4fc953cdfaa0_medium.jpg?v=1763499219",
+            "alt": "Sea Thistle Textured Faux Linen Room Darkening Curtain",
+            "width": 240,
+            "height": 240,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "https://www.halfpricedrapes.com/cdn/shop/files/BOCH-LN1854-FP-swatch-view_091d462c-ef6f-40b9-9d91-73bb9dcab65b_medium.jpg?v=1763489577",
+            "alt": "Dark Gravel Textured Faux Linen Room Darkening Curtain",
+            "width": 240,
+            "height": 240,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "https://www.halfpricedrapes.com/cdn/shop/files/BOCH-LN22302-swatch-view_fc09afdf-2a34-43e5-81f5-c82826fd7eb3_medium.jpg?v=1763502281",
+            "alt": "Khaki Green Textured Faux Linen Room Darkening Curtain",
+            "width": 240,
+            "height": 240,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "https://www.halfpricedrapes.com/cdn/shop/files/BOCH-LN21333-DW-swatch-view_medium.jpg?v=1762530504",
+            "alt": "Essential Black Textured Faux Linen Room Darkening Curtain",
+            "width": 240,
+            "height": 240,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "https://www.halfpricedrapes.com/cdn/shop/files/BOCH-LN21330-GR-swatch-view_469642fc-9018-4280-b6ee-984426437b1e_medium.jpg?v=1763501870",
+            "alt": "Reverie Blue Textured Faux Linen Room Darkening Curtain",
+            "width": 240,
+            "height": 240,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "https://www.halfpricedrapes.com/cdn/shop/files/BOCH-LN18517-swatch-view_d37ebbed-ded3-4a47-b569-54fb095345d6_medium.jpg?v=1763496449",
+            "alt": "Desert Orange Textured Faux Linen Room Darkening Curtain",
+            "width": 240,
+            "height": 240,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "https://www.halfpricedrapes.com/cdn/shop/files/BOCH-LN18511-DW-swatch-view_ad5ae1aa-414b-4938-91ce-d23464a09b5e_medium.jpg?v=1763495075",
+            "alt": "Mink Textured Faux Linen Room Darkening Curtain",
+            "width": 240,
+            "height": 240,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "https://www.halfpricedrapes.com/cdn/shop/files/BOCH-LN1858-FP-swatch-view_medium.jpg?v=1762531231",
+            "alt": "Clay Textured Faux Linen Room Darkening Curtain",
+            "width": 240,
+            "height": 240,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "https://www.halfpricedrapes.com/cdn/shop/files/BOCH-LN21332-GR-swatch-view_medium.jpg?v=1762530504",
+            "alt": "Nightfall Navy Textured Faux Linen Room Darkening Curtain",
+            "width": 240,
+            "height": 240,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "https://www.halfpricedrapes.com/cdn/shop/files/BOCH-LN18512-DW-swatch-view_8b9e32e4-03ab-4eb9-aa24-952d2e50a223_medium.jpg?v=1763496254",
+            "alt": "Denim Textured Faux Linen Room Darkening Curtain",
+            "width": 240,
+            "height": 240,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "https://www.halfpricedrapes.com/cdn/shop/files/BOCH-LN18538-DW-swatch-view_912465af-6bfe-4b0c-9285-fad0e40ad794_medium.jpg?v=1762530486",
+            "alt": "Nomad Tan Textured Faux Linen Room Darkening Curtain",
+            "width": 240,
+            "height": 240,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "https://www.halfpricedrapes.com/cdn/shop/files/BOCH-LN21328-FP-swatch-view_medium.jpg?v=1763500862",
+            "alt": "Focal Green Textured Faux Linen Room Darkening Curtain",
+            "width": 240,
+            "height": 240,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "https://www.halfpricedrapes.com/cdn/shop/products/BOCH-LN18523-SW_49427_medium.jpg?v=1762530479",
+            "alt": "Slate Teal Green Textured Faux Linen Room Darkening Curtain",
+            "width": 240,
+            "height": 240,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "https://www.halfpricedrapes.com/cdn/shop/files/83J_e38881cd-108b-436e-9779-930d8ee2417d_medium.jpg?v=1762531222",
+            "alt": "Blazer Grey Textured Faux Linen Room Darkening Curtain",
+            "width": 240,
+            "height": 240,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "https://www.halfpricedrapes.com/cdn/shop/files/BOCH-LN18518-DW-swatch-view_2ce4846b-b19f-41a1-846d-fbb530d8d2b7_medium.jpg?v=1763496695",
+            "alt": "Dandelion Gold Textured Faux Linen Room Darkening Curtain",
+            "width": 240,
+            "height": 240,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "https://www.halfpricedrapes.com/cdn/shop/files/BOCH-LN21331-DW-swatch-view_medium.jpg?v=1762530501",
+            "alt": "Story Blue Textured Faux Linen Room Darkening Curtain",
+            "width": 240,
+            "height": 240,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "https://www.halfpricedrapes.com/cdn/shop/files/BOCH-LN21327-GR-swatch-view_3e3bc981-29f2-4a5d-988c-bc7e927bc323_medium.jpg?v=1763500471",
+            "alt": "Key Green Textured Faux Linen Room Darkening Curtain",
+            "width": 240,
+            "height": 240,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "https://www.halfpricedrapes.com/cdn/shop/files/BOCH-LN18519-hook-belt-header_small.jpg?v=1763497426",
+            "alt": "",
+            "width": 100,
+            "height": 100,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "https://www.halfpricedrapes.com/cdn/shop/files/BOCH-LN18519-hook-belt-header_small.jpg?v=1763497426",
+            "alt": "",
+            "width": 100,
+            "height": 100,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "https://www.halfpricedrapes.com/cdn/shop/files/BOCH-LN18519-GR-grommet-header_small.jpg?v=1763497304",
+            "alt": "",
+            "width": 100,
+            "height": 100,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "https://cdn.shopify.com/s/files/1/0576/6856/7211/files/Length-1_6.jpg?v=1647550062",
+            "alt": "",
+            "width": 0,
+            "height": 0,
+            "loaded": false,
+            "status": 200,
+            "error": "Image has zero dimensions"
+          },
+          {
+            "src": "https://cdn.shopify.com/s/files/1/0843/7373/3685/files/Shipping_dfb1ad02-cf03-425e-ad96-71a770d2ba29.png?v=1736158380",
+            "alt": "",
+            "width": 1109,
+            "height": 1109,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "https://cdn.shopify.com/s/files/1/0576/6856/7211/files/starburst_with_check_new.png?v=1737531922",
+            "alt": "",
+            "width": 1276,
+            "height": 1280,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "https://www.halfpricedrapes.com/cdn/shop/products/HOOKS_56910.jpg?v=1762531660&width=100",
+            "alt": "Heavy Duty Drapery Pin Hooks (22 per bag)",
+            "width": 100,
+            "height": 100,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "https://www.halfpricedrapes.com/cdn/shop/products/HDW-LTF3523N_83678.jpg?v=1762534397&width=100",
+            "alt": "Glass Sphere Prism Nickel Extendable Metal Rod Set",
+            "width": 100,
+            "height": 100,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "https://cdn.shopify.com/s/files/1/0576/6856/7211/files/VPYC-179920-CC18PR-back-tab-header.jpg?v=1762534368",
+            "alt": "Denmark Blue Heritage Plush Velvet Cushion Covers - Pair - HalfPriceDrapes.com",
+            "width": 1500,
+            "height": 1500,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "https://www.halfpricedrapes.com/cdn/shop/files/BOCH-LN18519-GR-front-view_540x.jpg?v=1763497302",
+            "alt": "",
+            "width": 499,
+            "height": 499,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "https://www.halfpricedrapes.com/cdn/shop/files/BOCH-LN18519-GR-grommet-header.jpg?v=1763497304",
+            "alt": "",
+            "width": 1920,
+            "height": 1920,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "https://www.halfpricedrapes.com/cdn/shop/files/Badges_1_be0e3f2a-db3d-4784-ba56-894ac0fb33e9_300x300.png?v=1759335063",
+            "alt": "",
+            "width": 62,
+            "height": 26,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "https://www.halfpricedrapes.com/cdn/shop/files/Textured_Faux_Linen_Curtains_-_Collection_Box_900x.jpg?v=1754935747",
+            "alt": "",
+            "width": 884,
+            "height": 462,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "",
+            "alt": "Image of review by Mariann S. on 20 November 25 number 1",
+            "width": 468,
+            "height": 468,
+            "loaded": true,
+            "status": 200,
+            "error": null
+          },
+          {
+            "src": "https://secure.adnxs.com/px?id=1384563&t=2",
+            "alt": "",
+            "width": 1,
+            "height": 1,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "https://secure.adnxs.com/px?id=1772888&t=2",
+            "alt": "",
+            "width": 1,
+            "height": 1,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "https://secure.adnxs.com/px?id=1384563&t=2",
+            "alt": "",
+            "width": 1,
+            "height": 1,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "https://secure.adnxs.com/px?id=1772888&t=2",
+            "alt": "",
+            "width": 1,
+            "height": 1,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "data:image/svg+xml,%3csvg width='12' height='13' viewBox='0 0 12 13' fill='none' xmlns='http://www.w3.org/2000/svg'%3e %3cpath d='M6 2.51562L6.5625 1.55469C6.9375 0.898438 7.61719 0.5 8.36719 0.5H8.4375C9.5625 0.5 10.5 1.4375 10.5 2.5625C10.5 2.91406 10.4062 3.21875 10.2656 3.5H10.875C11.4844 3.5 12 4.01562 12 4.625V6.125C12 6.61719 11.6719 7.03906 11.25 7.20312V11C11.25 11.8438 10.5703 12.5 9.75 12.5H2.25C1.40625 12.5 0.75 11.8438 0.75 11V7.20312C0.304688 7.03906 0 6.61719 0 6.125V4.625C0 4.01562 0.492188 3.5 1.125 3.5H1.71094C1.57031 3.21875 1.5 2.91406 1.5 2.5625C1.5 1.4375 2.41406 0.5 3.5625 0.5H3.60938C4.35938 0.5 5.03906 0.898438 5.41406 1.55469L6 2.51562ZM6.75 4.625V6.125H10.875V4.625H6.75ZM5.25 4.625H1.125V6.125H5.25V4.625ZM5.25 7.25H1.875V11C1.875 11.2109 2.03906 11.375 2.25 11.375H5.25V7.25ZM6.75 11.375H9.75C9.9375 11.375 10.125 11.2109 10.125 11V7.25H6.75V11.375ZM8.4375 3.5C8.95312 3.5 9.375 3.10156 9.375 2.5625C9.375 2.04688 8.95312 1.625 8.4375 1.625H8.36719C8.01562 1.625 7.71094 1.8125 7.52344 2.11719L6.70312 3.5H8.4375ZM5.27344 3.5L4.45312 2.11719C4.26562 1.8125 3.96094 1.625 3.60938 1.625H3.5625C3.02344 1.625 2.625 2.04688 2.625 2.5625C2.625 3.10156 3.02344 3.5 3.5625 3.5H5.27344Z' fill='%23212121' fill-opacity='0.8'/%3e %3c/svg%3e",
+            "alt": "The Rave",
+            "width": 12,
+            "height": 13,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "data:image/svg+xml,%3csvg width='12' height='12' viewBox='0 0 12 12' fill='none' xmlns='http://www.w3.org/2000/svg'%3e %3cpath d='M11.3438 10.4336C11.6602 10.7852 11.6602 11.3125 11.3438 11.6289C10.9922 11.9805 10.4648 11.9805 10.1484 11.6289L6 7.44531L1.81641 11.6289C1.46484 11.9805 0.9375 11.9805 0.621094 11.6289C0.269531 11.3125 0.269531 10.7852 0.621094 10.4336L4.80469 6.25L0.621094 2.06641C0.269531 1.71484 0.269531 1.1875 0.621094 0.871094C0.9375 0.519531 1.46484 0.519531 1.78125 0.871094L6 5.08984L10.1836 0.90625C10.5 0.554688 11.0273 0.554688 11.3438 0.90625C11.6953 1.22266 11.6953 1.75 11.3438 2.10156L7.16016 6.25L11.3438 10.4336Z' fill='%23191926' fill-opacity='0.8'/%3e %3c/svg%3e",
+            "alt": "Close",
+            "width": 12,
+            "height": 12,
+            "loaded": true,
+            "status": null,
+            "error": null
+          },
+          {
+            "src": "https://bat.bing.com/action/0?ti=5738608&Ver=2&mid=9f8bee8b-e13b-4b10-b09e-cdbfbff9c0cf&bo=1&sid=5ca73650ca7d11f0931a89436d6e2560&vid=5ca77b00ca7d11f09a691dfb23e950f3&vids=0&msclkid=N&pi=918639831&lg=en-GB&sw=1440&sh=900&sc=30&nwd=1&tl=Butterscotch%20Textured%20Faux%20Linen%20Room%20Darkening%20Curtain&p=https%3A%2F%2Fwww.halfpricedrapes.com%2Fproducts%2Fbutterscotch-textured-faux-linen-room-darkening-curtain%3Fvariant%3D41163161338027&r=&lt=1019&evt=pageLoad&sv=2&cdb=AQAQ&rn=823175",
+            "alt": "",
+            "width": 0,
+            "height": 0,
+            "loaded": false,
+            "status": 200,
+            "error": "Image has zero dimensions"
+          }
+        ]
+      },
+      "errors": {
+        "passed": true,
+        "consoleErrors": [
+          {
+            "type": "page_error",
+            "message": "Unexpected token ':'",
+            "stack": "SyntaxError: Unexpected token ':'\n    at p (https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js:2:523)\n    at globalEval (https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js:2:2581)\n    at text script (https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js:4:17036)\n    at Qb (https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js:4:10192)\n    at A (https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js:4:13719)\n    at <anonymous> (https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js:4:16323)",
+            "timestamp": "2025-11-26T04:08:52.971Z",
+            "severity": "warning"
+          },
+          {
+            "type": "page_error",
+            "message": "Cannot read properties of undefined (reading 'node')",
+            "stack": "TypeError: Cannot read properties of undefined (reading 'node')\n    at <anonymous> (https://www.halfpricedrapes.com/cdn/shop/t/419/assets/custom-product-swatch.js?v=103331462517952852641762198671:22:434)",
+            "timestamp": "2025-11-26T04:08:53.052Z",
+            "severity": "warning"
+          },
+          {
+            "type": "console_error",
+            "message": "Failed to load resource: net::ERR_TIMED_OUT",
+            "location": null,
+            "timestamp": "2025-11-26T04:09:20.306Z",
+            "severity": "warning"
+          }
+        ],
+        "networkFailures": [
+          {
+            "url": "https://code.tidio.co/hfput7dcyy1ytvqe2edhpzyivbnlrxyi.js",
+            "method": "GET",
+            "failure": "net::ERR_BLOCKED_BY_ORB",
+            "timestamp": "2025-11-26T04:08:52.858Z"
+          },
+          {
+            "url": "https://www.halfpricedrapes.com/api/collect",
+            "method": "POST",
+            "failure": "net::ERR_ABORTED",
+            "timestamp": "2025-11-26T04:08:53.032Z"
+          },
+          {
+            "url": "https://www.google.com/ccm/collect?frm=0&en=page_view&dl=https%3A%2F%2Fwww.halfpricedrapes.com%2Fproducts%2Fbutterscotch-textured-faux-linen-room-darkening-curtain&scrsrc=www.googletagmanager.com&rnd=1896655699.1764130133&dt=Butterscotch%20Textured%20Faux%20Linen%20Room%20Darkening%20Curtain&auid=1711406449.1764130022&navt=n&npa=0&gdid=dN2ZkMj&gtm=45He5bi1v9217951150za200zd9217951150xea&gcd=13l3l3l3l1l1&dma=0&tag_exp=103116026~103200004~104527906~104528501~104684208~104684211~105322304~105446120~115583767~115616986~115938466~115938468~116184927~116184929~116217636~116217638&tft=1764130132955&tfd=1122&apve=1&apvf=f",
+            "method": "POST",
+            "failure": "net::ERR_ABORTED",
+            "timestamp": "2025-11-26T04:08:53.091Z"
+          },
+          {
+            "url": "https://analytics.google.com/g/collect?v=2&tid=G-6PMM7S0R7L&gtm=45je5bi1v878102713z89217951150za200zb9217951150zd9217951150&_p=1764130132369&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=252824768.1764130023&ecid=2041664257&ul=en-gb&sr=1440x900&ir=1&uaa=arm&uab=64&uafvl=Chromium%3B127.0.6533.88%7CNot)A%253BBrand%3B99.0.0.0&uamb=0&uam=&uap=macOS&uapv=13.5.0&uaw=0&are=1&frm=0&pscdl=&ec_mode=a&_eu=EAAAAAQ&_s=1&tag_exp=103116026~103200004~104527906~104528500~104684208~104684211~105322302~115583767~115938466~115938469~116184927~116184929~116217636~116217638&sid=1764130022&sct=1&seg=1&dl=https%3A%2F%2Fwww.halfpricedrapes.com%2Fproducts%2Fbutterscotch-textured-faux-linen-room-darkening-curtain%3Fvariant%3D41163161338027&dt=Butterscotch%20Textured%20Faux%20Linen%20Room%20Darkening%20Curtain&en=page_view&tfd=1242",
+            "method": "POST",
+            "failure": "net::ERR_ABORTED",
+            "timestamp": "2025-11-26T04:08:53.171Z"
+          },
+          {
+            "url": "https://www.facebook.com/tr/",
+            "method": "POST",
+            "failure": "net::ERR_CONNECTION_CLOSED",
+            "timestamp": "2025-11-26T04:08:53.423Z"
+          },
+          {
+            "url": "https://www.googletagmanager.com/gtag/js?id=G-4WMVWHVG2M&cx=c&gtm=4e5bi1",
+            "method": "GET",
+            "failure": "net::ERR_BLOCKED_BY_ORB",
+            "timestamp": "2025-11-26T04:08:53.491Z"
+          },
+          {
+            "url": "https://www.googletagmanager.com/gtag/js?id=G-4WMVWHVG2M",
+            "method": "GET",
+            "failure": "net::ERR_BLOCKED_BY_ORB",
+            "timestamp": "2025-11-26T04:08:53.491Z"
+          },
+          {
+            "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-4WMVWHVG2M&gtm=45je5bi1v878102713z89217951150za200zb9217951150zd9217951150&_p=1764130132369&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=252824768.1764130023&ul=en-gb&sr=1440x900&ir=1&uaa=arm&uab=64&uafvl=Chromium%3B127.0.6533.88%7CNot)A%253BBrand%3B99.0.0.0&uamb=0&uam=&uap=macOS&uapv=13.5.0&uaw=0&are=1&frm=0&pscdl=&_eu=EAAAAAQ&_s=1&tag_exp=103116026~103200004~104527906~104528500~104684208~104684211~105322302~115583767~115938466~115938469~116184927~116184929~116217636~116217638&sid=1764130022&sct=1&seg=1&dl=https%3A%2F%2Fwww.halfpricedrapes.com%2Fproducts%2Fbutterscotch-textured-faux-linen-room-darkening-curtain%3Fvariant%3D41163161338027&dt=Butterscotch%20Textured%20Faux%20Linen%20Room%20Darkening%20Curtain&en=page_view&tfd=1559",
+            "method": "POST",
+            "failure": "net::ERR_ABORTED",
+            "timestamp": "2025-11-26T04:08:53.491Z"
+          },
+          {
+            "url": "https://shop.app/pay/hop?analytics_trace_id=b33eb101-286e-48d4-9a63-10ca1048509b&target_origin=https%3A%2F%2Fwww.halfpricedrapes.com&client_handle=halfpricedrapes-com.myshopify.com",
+            "method": "GET",
+            "failure": "net::ERR_TIMED_OUT",
+            "timestamp": "2025-11-26T04:08:53.942Z"
+          },
+          {
+            "url": "https://s.amazon-adsystem.com/iu3?pid=5994a3c0-fb11-4fe5-8fd4-a8d905ba6ed0&event=PageView&ts=1764130132946&eventSource=amzn.js&uuid=2d6ea81c-dbfc-433d-be86-2eb36b31ee74&dcc=t",
+            "method": "GET",
+            "failure": "net::ERR_ABORTED",
+            "timestamp": "2025-11-26T04:08:54.132Z"
+          },
+          {
+            "url": "https://app.launchdarkly.com/sdk/evalx/648a2c192ea71812f4b173f2/contexts/eyJraW5kIjoiRmluZ2VycHJpbnQiLCJrZXkiOiI0MzUxMTc3NjA5ODU3OTM2MzkifQ",
+            "method": "GET",
+            "failure": "net::ERR_ABORTED",
+            "timestamp": "2025-11-26T04:08:54.287Z"
+          },
+          {
+            "url": "https://s.amazon-adsystem.com/iu3?pid=5994a3c0-fb11-4fe5-8fd4-a8d905ba6ed0&event=PageView&ts=1764130132972&eventSource=amzn.js&uuid=1dbd9cef-c956-4d66-92ff-2ae93873ad2f&dcc=t",
+            "method": "GET",
+            "failure": "net::ERR_ABORTED",
+            "timestamp": "2025-11-26T04:08:54.372Z"
+          },
+          {
+            "url": "https://clientstream.launchdarkly.com/eval/648a2c192ea71812f4b173f2/eyJraW5kIjoiRmluZ2VycHJpbnQiLCJrZXkiOiI0MzUxMTc3NjA5ODU3OTM2MzkifQ",
+            "method": "GET",
+            "failure": "net::ERR_ABORTED",
+            "timestamp": "2025-11-26T04:08:58.215Z"
+          },
+          {
+            "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-4WMVWHVG2M&gtm=45je5bi1v878102713za200zb9217951150zd9217951150&_p=1764130132369&gcs=G111&gcd=13t3n3t3t5l1&npa=0&dma=0&gdid=dN2ZkMj&cid=252824768.1764130023&ul=en-gb&sr=1440x900&ir=1&uaa=arm&uab=64&uafvl=Chromium%3B127.0.6533.88%7CNot)A%253BBrand%3B99.0.0.0&uamb=0&uam=&uap=macOS&uapv=13.5.0&uaw=0&are=1&frm=0&pscdl=&_eu=EAAAAAQ&_s=2&tag_exp=103116026~103200004~104527906~104528500~104684208~104684211~105322302~115583767~115938466~115938469~116184927~116184929~116217636~116217638&sid=1764130022&sct=1&seg=1&dl=https%3A%2F%2Fwww.halfpricedrapes.com%2Fproducts%2Fbutterscotch-textured-faux-linen-room-darkening-curtain%3Fvariant%3D41163161338027&dt=Butterscotch%20Textured%20Faux%20Linen%20Room%20Darkening%20Curtain&en=page_view&_ee=1&ep.debug_mode=true&ep.app=blotout&_et=310&tfd=6560",
+            "method": "POST",
+            "failure": "net::ERR_ABORTED",
+            "timestamp": "2025-11-26T04:08:58.491Z"
+          },
+          {
+            "url": "https://shop.app/checkouts/internal/preloads.js?locale=en-US&shop_id=57668567211",
+            "method": "GET",
+            "failure": "net::ERR_TIMED_OUT",
+            "timestamp": "2025-11-26T04:09:20.304Z"
+          },
+          {
+            "url": "https://shop.app/pay/sdk-session?extend_buyer_identity_sdk=1&analytics_context=loginWithShopPrequal&analytics_trace_id=9f09afd1-5598-4b02-b9e0-c00e61aff4f3&avoid_sdk_session=false&compact_layout=false&flow=prequal&flow_version=prequalAmount&hide_copy=true&locale=en&preact=true&prompt=login&redirect_uri=https%3A%2F%2Fwww.halfpricedrapes.com%2Fservices%2Flogin_with_shop%2Fcallback&require_verification=false&response_mode=form_post&response_type=id_token&scope=openid+pay%3Asession_token+profile+shop%3Aaccount_uuid+email+phone&sign_up_enabled=false&target_origin=https%3A%2F%2Fwww.halfpricedrapes.com&client_id=2e054c31-dc1f-4365-8b60-e7a1d1783582&nonce=wxCdSLQkoPErIfZJ7pLmK6zn&state=hWN5iz6lOOjtO1gyYhfz4gXC&storefront_domain=https%3A%2F%2Fwww.halfpricedrapes.com&uniq_token=f2af8bd8-76fb-498c-91f8-619fa6e8d335&visit_token=7bda5e4a-6ba9-4367-85ac-87e334f5edc5",
+            "method": "GET",
+            "failure": "net::ERR_TIMED_OUT",
+            "timestamp": "2025-11-26T04:09:20.387Z"
+          },
+          {
+            "url": "https://shop.app/pay/sdk-session?extend_buyer_identity_sdk=1&analytics_context=loginWithShopPrequal&analytics_trace_id=20ac2057-934c-4859-8b2e-467bf6b87002&avoid_sdk_session=false&compact_layout=false&flow=prequal&flow_version=prequalAmount&hide_copy=true&locale=en&preact=true&prompt=login&redirect_uri=https%3A%2F%2Fwww.halfpricedrapes.com%2Fservices%2Flogin_with_shop%2Fcallback&require_verification=false&response_mode=form_post&response_type=id_token&scope=openid+pay%3Asession_token+profile+shop%3Aaccount_uuid+email+phone&sign_up_enabled=false&target_origin=https%3A%2F%2Fwww.halfpricedrapes.com&client_id=2e054c31-dc1f-4365-8b60-e7a1d1783582&nonce=mlHOsp0vT36Qe4jsGivOl-Yz&state=hWN5iz6lOnglecAbZhcjYPp4&storefront_domain=https%3A%2F%2Fwww.halfpricedrapes.com&uniq_token=f2af8bd8-76fb-498c-91f8-619fa6e8d335&visit_token=7bda5e4a-6ba9-4367-85ac-87e334f5edc5",
+            "method": "GET",
+            "failure": "net::ERR_TIMED_OUT",
+            "timestamp": "2025-11-26T04:09:21.848Z"
+          },
+          {
+            "url": "https://app.shop.pe/app/init/params?siteid=5c9111e8d559301f1ec51b04&product=www.halfpricedrapes.com&product_url=https%3A%2F%2Fwww.halfpricedrapes.com%2Fproducts%2Fbutterscotch-textured-faux-linen-room-darkening-curtain&image=&price=&currency=undefined&rating=0&rating_count=0&review_count=0&stock_status=&description=&update_product=true&subcategory=&url=https%3A%2F%2Fwww.halfpricedrapes.com%2Fproducts%2Fbutterscotch-textured-faux-linen-room-darkening-curtain%3Fvariant%3D41163161338027&callback=AddShoppersWidget.load_widget&no_cookie_callback=AddShoppersWidget.load_no_cookie&sos=false&rand=21003&cookie=&referer=",
+            "method": "GET",
+            "failure": "net::ERR_BLOCKED_BY_ORB",
+            "timestamp": "2025-11-26T04:09:22.312Z"
+          },
+          {
+            "url": "https://www.halfpricedrapes.com/products/butterscotch-textured-faux-linen-room-darkening-curtain?variant=41163161338027",
+            "method": "HEAD",
+            "failure": "net::ERR_ABORTED",
+            "timestamp": "2025-11-26T04:09:28.145Z"
+          },
+          {
+            "url": "https://www.halfpricedrapes.com/api/collect",
+            "method": "POST",
+            "failure": "net::ERR_ABORTED",
+            "timestamp": "2025-11-26T04:09:28.260Z"
+          },
+          {
+            "url": "https://www.halfpricedrapes.com/products/butterscotch-textured-faux-linen-room-darkening-curtain?variant=41163161338027",
+            "method": "HEAD",
+            "failure": "net::ERR_ABORTED",
+            "timestamp": "2025-11-26T04:09:28.306Z"
+          },
+          {
+            "url": "https://www.halfpricedrapes.com/products/butterscotch-textured-faux-linen-room-darkening-curtain?variant=41163161338027",
+            "method": "HEAD",
+            "failure": "net::ERR_ABORTED",
+            "timestamp": "2025-11-26T04:09:28.464Z"
+          },
+          {
+            "url": "https://www.halfpricedrapes.com/products/butterscotch-textured-faux-linen-room-darkening-curtain?variant=41163161338027",
+            "method": "HEAD",
+            "failure": "net::ERR_ABORTED",
+            "timestamp": "2025-11-26T04:09:28.622Z"
+          },
+          {
+            "url": "https://www.halfpricedrapes.com/products/butterscotch-textured-faux-linen-room-darkening-curtain?variant=41163161338027",
+            "method": "HEAD",
+            "failure": "net::ERR_ABORTED",
+            "timestamp": "2025-11-26T04:09:28.782Z"
+          },
+          {
+            "url": "https://www.halfpricedrapes.com/products/butterscotch-textured-faux-linen-room-darkening-curtain?variant=41163161338027",
+            "method": "HEAD",
+            "failure": "net::ERR_ABORTED",
+            "timestamp": "2025-11-26T04:09:28.957Z"
+          },
+          {
+            "url": "https://www.halfpricedrapes.com/products/butterscotch-textured-faux-linen-room-darkening-curtain?variant=41163161338027",
+            "method": "HEAD",
+            "failure": "net::ERR_ABORTED",
+            "timestamp": "2025-11-26T04:09:29.121Z"
+          },
+          {
+            "url": "https://cdn.shopify.com/s/files/1/0576/6856/7211/files/Length-1_6.jpg?v=1647550062",
+            "method": "HEAD",
+            "failure": "net::ERR_ABORTED",
+            "timestamp": "2025-11-26T04:09:29.826Z"
+          },
+          {
+            "url": "https://www.halfpricedrapes.com/products/butterscotch-textured-faux-linen-room-darkening-curtain?variant=41163161338027",
+            "method": "HEAD",
+            "failure": "net::ERR_ABORTED",
+            "timestamp": "2025-11-26T04:09:29.983Z"
+          },
+          {
+            "url": "https://bat.bing.com/action/0?ti=5738608&Ver=2&mid=9f8bee8b-e13b-4b10-b09e-cdbfbff9c0cf&bo=1&sid=5ca73650ca7d11f0931a89436d6e2560&vid=5ca77b00ca7d11f09a691dfb23e950f3&vids=0&msclkid=N&pi=918639831&lg=en-GB&sw=1440&sh=900&sc=30&nwd=1&tl=Butterscotch%20Textured%20Faux%20Linen%20Room%20Darkening%20Curtain&p=https%3A%2F%2Fwww.halfpricedrapes.com%2Fproducts%2Fbutterscotch-textured-faux-linen-room-darkening-curtain%3Fvariant%3D41163161338027&r=&lt=1019&evt=pageLoad&sv=2&cdb=AQAQ&rn=823175",
+            "method": "HEAD",
+            "failure": "net::ERR_ABORTED",
+            "timestamp": "2025-11-26T04:09:30.218Z"
+          },
+          {
+            "url": "https://www.halfpricedrapes.com/api/collect",
+            "method": "POST",
+            "failure": "net::ERR_ABORTED",
+            "timestamp": "2025-11-26T04:09:33.399Z"
+          },
+          {
+            "url": "https://analytics.google.com/g/collect?v=2&tid=G-6PMM7S0R7L&gtm=45je5bi1v878102713za200zb9217951150zd9217951150&_p=1764130132369&_gaz=1&gcs=G111&gcd=13t3n3t3t5l1&npa=0&dma=0&gdid=dN2ZkMj&cid=252824768.1764130023&ecid=2041664257&ul=en-gb&sr=1440x900&ir=1&uaa=arm&uab=64&uafvl=Chromium%3B127.0.6533.88%7CNot)A%253BBrand%3B99.0.0.0&uamb=0&uam=&uap=macOS&uapv=13.5.0&uaw=0&are=1&frm=0&pscdl=&_eu=EEAAAAQ&_s=2&tag_exp=103116026~103200004~104527906~104528500~104684208~104684211~105322302~115583767~115938466~115938469~116184927~116184929~116217636~116217638&sid=1764130022&sct=1&seg=1&dl=https%3A%2F%2Fwww.halfpricedrapes.com%2Fproducts%2Fbutterscotch-textured-faux-linen-room-darkening-curtain%3Fvariant%3D41163161338027&dt=Butterscotch%20Textured%20Faux%20Linen%20Room%20Darkening%20Curtain&en=scroll&epn.percent_scrolled=90&_et=47888&tfd=49134",
+            "method": "POST",
+            "failure": "net::ERR_ABORTED",
+            "timestamp": "2025-11-26T04:09:41.175Z"
+          },
+          {
+            "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-4WMVWHVG2M&gtm=45je5bi1v878102713za200zb9217951150zd9217951150&_p=1764130132369&gcs=G111&gcd=13t3n3t3t5l1&npa=0&dma=0&gdid=dN2ZkMj&cid=252824768.1764130023&ul=en-gb&sr=1440x900&ir=1&uaa=arm&uab=64&uafvl=Chromium%3B127.0.6533.88%7CNot)A%253BBrand%3B99.0.0.0&uamb=0&uam=&uap=macOS&uapv=13.5.0&uaw=0&are=1&frm=0&pscdl=&_eu=EEAAAAQ&_s=3&tag_exp=103116026~103200004~104527906~104528500~104684208~104684211~105322302~115583767~115938466~115938469~116184927~116184929~116217636~116217638&sid=1764130022&sct=1&seg=1&dl=https%3A%2F%2Fwww.halfpricedrapes.com%2Fproducts%2Fbutterscotch-textured-faux-linen-room-darkening-curtain%3Fvariant%3D41163161338027&dt=Butterscotch%20Textured%20Faux%20Linen%20Room%20Darkening%20Curtain&en=scroll&epn.percent_scrolled=90&_et=47580&tfd=54148",
+            "method": "POST",
+            "failure": "net::ERR_ABORTED",
+            "timestamp": "2025-11-26T04:09:46.147Z"
+          }
+        ],
+        "resourceFailures": [],
+        "corsErrors": [],
+        "performanceWarnings": [
+          {
+            "type": "slow_load",
+            "message": "Page load time: 30070ms",
+            "metrics": {
+              "domContentLoaded": 1019,
+              "loadComplete": 30070,
+              "firstPaint": null,
+              "firstContentfulPaint": null
+            }
+          }
+        ],
+        "securityErrors": [
+          {
+            "type": "insecure_cookie",
+            "url": "https://www.halfpricedrapes.com/cart.js",
+            "message": "Cookie set without Secure flag on HTTPS page",
+            "timestamp": "2025-11-26T04:08:52.971Z"
+          },
+          {
+            "type": "insecure_cookie",
+            "url": "https://www.halfpricedrapes.com/cart.js",
+            "message": "Cookie set without Secure flag on HTTPS page",
+            "timestamp": "2025-11-26T04:08:53.111Z"
+          },
+          {
+            "type": "insecure_cookie",
+            "url": "https://www.clarity.ms/tag/uet/5738608?insights=1",
+            "message": "Cookie set without Secure flag on HTTPS page",
+            "timestamp": "2025-11-26T04:08:53.290Z"
+          },
+          {
+            "type": "insecure_cookie",
+            "url": "https://www.halfpricedrapes.com/cart.js",
+            "message": "Cookie set without Secure flag on HTTPS page",
+            "timestamp": "2025-11-26T04:08:58.119Z"
+          },
+          {
+            "type": "insecure_cookie",
+            "url": "https://insight.adsrvr.org/track/cei?advertiser_id=vae0rs4&cookie_sync=1&upv=3.0.0&upid=yedbyd2&ref=https://www.halfpricedrapes.com/products/butterscotch-textured-faux-linen-room-darkening-curtain?variant=41163161338027",
+            "message": "Cookie set without Secure flag on HTTPS page",
+            "timestamp": "2025-11-26T04:09:22.218Z"
+          },
+          {
+            "type": "insecure_cookie",
+            "url": "https://insight.adsrvr.org/track/cei?advertiser_id=vae0rs4&cookie_sync=1&upv=3.0.0&upid=yedbyd2&ref=https://www.halfpricedrapes.com/products/butterscotch-textured-faux-linen-room-darkening-curtain?variant=41163161338027",
+            "message": "Cookie set without Secure flag on HTTPS page",
+            "timestamp": "2025-11-26T04:09:22.312Z"
+          },
+          {
+            "type": "insecure_cookie",
+            "url": "https://www.halfpricedrapes.com/products/butterscotch-textured-faux-linen-room-darkening-curtain?variant=41163161338027",
+            "message": "Cookie set without Secure flag on HTTPS page",
+            "timestamp": "2025-11-26T04:09:28.144Z"
+          },
+          {
+            "type": "insecure_cookie",
+            "url": "https://www.halfpricedrapes.com/products/butterscotch-textured-faux-linen-room-darkening-curtain?variant=41163161338027",
+            "message": "Cookie set without Secure flag on HTTPS page",
+            "timestamp": "2025-11-26T04:09:28.459Z"
+          },
+          {
+            "type": "insecure_cookie",
+            "url": "https://www.halfpricedrapes.com/cart.js",
+            "message": "Cookie set without Secure flag on HTTPS page",
+            "timestamp": "2025-11-26T04:09:29.988Z"
+          },
+          {
+            "type": "insecure_cookie",
+            "url": "https://www.halfpricedrapes.com/cart.js",
+            "message": "Cookie set without Secure flag on HTTPS page",
+            "timestamp": "2025-11-26T04:09:30.386Z"
+          },
+          {
+            "type": "insecure_cookie",
+            "url": "https://www.halfpricedrapes.com/cart.js",
+            "message": "Cookie set without Secure flag on HTTPS page",
+            "timestamp": "2025-11-26T04:09:41.324Z"
+          },
+          {
+            "type": "insecure_cookie",
+            "url": "https://www.halfpricedrapes.com/cart.js",
+            "message": "Cookie set without Secure flag on HTTPS page",
+            "timestamp": "2025-11-26T04:09:46.302Z"
+          }
+        ],
+        "totalErrors": 35,
+        "totalWarnings": 0
+      }
+    }
+  ]
+}
