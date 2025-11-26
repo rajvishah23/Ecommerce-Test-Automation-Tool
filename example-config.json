@@ -1,0 +1,35 @@
+{
+  "browser": {
+    "headless": true,
+    "defaultViewport": {
+      "width": 1920,
+      "height": 1080
+    },
+    "args": [
+      "--no-sandbox",
+      "--disable-setuid-sandbox"
+    ]
+  },
+  "timeouts": {
+    "pageLoad": 45000,
+    "elementWait": 15000,
+    "navigation": 30000
+  },
+  "retry": {
+    "attempts": 2,
+    "delay": 1000
+  },
+  "errorTolerance": {
+    "critical": 0,
+    "warning": 10,
+    "network": 3
+  },
+  "selectors": {
+    "shopify": {
+      "productTitle": ["h1.product-title", "h1.product__title", "h1"],
+      "productPrice": [".price", ".product-price", ".product__price"],
+      "addToCart": ["button[name='add']", ".btn--add-to-cart", "button.add-to-cart"]
+    }
+  }
+}
+

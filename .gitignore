@@ -1,0 +1,9 @@
+node_modules/
+reports/
+*.log
+.DS_Store
+.env
+*.json.bak
+coverage/
+.nyc_output/
+

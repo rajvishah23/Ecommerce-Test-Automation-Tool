@@ -1,0 +1,29 @@
+{
+    "name": "ecommerce-test-automation",
+    "version": "1.0.0",
+    "runtime": "nodejs18",
+    "build": "npm install",
+    "start": "node src/runner.js",
+  
+    "env": {
+      "PLATFORM": "shopify",
+      "OUTPUT_DIR": "./reports",
+      "HEADLESS": "true",
+      "TEST_URLS": ""
+    },
+  
+    "resources": {
+      "cpu": "1",
+      "memory": "1024MB"
+    },
+  
+    "logs": {
+      "level": "info"
+    },
+  
+    "schedule": {
+      "cron": "0 */6 * * *",
+      "enabled": true
+    }
+  }
+  
